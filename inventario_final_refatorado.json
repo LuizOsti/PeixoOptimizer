@@ -1,0 +1,562 @@
+[
+    {
+        "item_numero": 1,
+        "posicao_clicada": {
+            "x": 529,
+            "y": 150
+        },
+        "texto_extraido": "(@ Quantum Core: Insight = a\nKeeneye () a\n\n® ® \" ~\nMythic oe\nLevel 15 .\n\n%* CRIT Rate +40%\nQ HP Bonus +2%\nx CRIT DMG +10%\n@ [ffect RES +4%\n> Effect ACC +7%\nsat Diting Equipped Current"
+    },
+    {
+        "item_numero": 2,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 150
+        },
+        "texto_extraido": "() High-Speed Core: Swiftrushh @ o@\n733, te\"\nMythic S\n\nLevel 15 ~\n\n<> Effect ACC +60%\n@ [Effect RES +7%\nM CRIT Rate +3%\ngS SPD +6\nxe CRIT OMG +6%\n» Gray Equipped Current"
+    },
+    {
+        "item_numero": 3,
+        "posicao_clicada": {
+            "x": 200,
+            "y": 151
+        },
+        "texto_extraido": "€ Observation Mask: Insight Bo\nMythic 2\nLevel 15\n\n© ATK +330\n> [Effect ACC +7%\nx CRIT OMG +11%\n$ SPD #3\n© ATK Bonus +5%\nsat Diting Equipped Current"
+    },
+    {
+        "item_numero": 4,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 151
+        },
+        "texto_extraido": "{) Collapse Transistor: Insight @ wo\nKeeneye () me\nMythic jay\nLevel 15 Nac\n\ngy HP +3,300\nx CRIT DMG +10%\nHM CRIT Rate +4%\n@ [ffect RES +3%\n© Atk +19\nsat Diting Equipped Current"
+    },
+    {
+        "item_numero": 5,
+        "posicao_clicada": {
+            "x": 692,
+            "y": 151
+        },
+        "texto_extraido": "€ Chase Mask: Pursuit Bo\nMomentum @) e\nMythic on\nLevel 15 a\n\n< ATK +330\n& ATK Bonus +3%\nx CRIT OMG +6%\n> Effect ACC +13%\nMK CRIT Rate +2%\n& Hoyan Equipped Current"
+    },
+    {
+        "item_numero": 6,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 151
+        },
+        "texto_extraido": "£ Resentful Transistor: Fury 8 wo\nFury © oa\nMythic i, J\nLevel 15 “2\n\n4 HP +3,300\nXe CRIT DMG +6%\n@ Effect RES +10%\nS$ SPD +3\n ODEF +27\nSs Rosa Equipped Current"
+    },
+    {
+        "item_numero": 7,
+        "posicao_clicada": {
+            "x": 1020,
+            "y": 151
+        },
+        "texto_extraido": "© Swift Mask: Swiftrush rat\nMythic ves’\n\nLevel 15 ‘\n\n& ATK +330\n& ATK Bonus +2%\n@ DEF +13\nBB CRIT Rate +11%\n@ [Effect ACC +3%\n» Gray Equipped Current"
+    },
+    {
+        "item_numero": 8,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 314
+        },
+        "texto_extraido": "(@ High-Speed Core: Swiftrushh @ @\nviel ®© x a\nMythic S\n\nLevel 15 ~\n(DEF Bonus +50%\nxX CRIT OMG +3%\nO HP Bonus +3%\n$ SPD +7\n@ Effect RES +6%\n) Valerian Equipped Current"
+    },
+    {
+        "item_numero": 9,
+        "posicao_clicada": {
+            "x": 365,
+            "y": 314
+        },
+        "texto_extraido": "() High-Speed Core: Swiftrushh @ o@\n“ve ®© & a\nMythic >\n\nLevel 15 ~\n\n2 HP Bonus +50%\nHME CRIT Rate +2\n@ [Effect RES +3%\n© Ark +65\nSH SPD +6\n@. Sania Equipped Current"
+    },
+    {
+        "item_numero": 10,
+        "posicao_clicada": {
+            "x": 529,
+            "y": 314
+        },
+        "texto_extraido": "(@) Valiant Core: Onslaught in|\nOnslaught ©\n\n4\n\nMythic yy\n\nLevel 15 ~\n\n< ATK Bonus +50%\nxX CRIT OMG +4%\n& HP +222\nQ HP Bonus +5%\n<)> Effect ACC +10%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 11,
+        "posicao_clicada": {
+            "x": 857,
+            "y": 314
+        },
+        "texto_extraido": "(@) Raging Core: Fury Boe\nOutstanding\n\nLevel 15\n\n%* CRIT Rate +34%\nxX CRIT OMG +3%\n(@ DEF Bonus +2%\n> SPD +5\n@ DEF +2?\nG: Rosa Equipped Current"
+    },
+    {
+        "item_numero": 12,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 314
+        },
+        "texto_extraido": "(@) Piercing Core: Harvest e o\nsg <4\nOutstanding Bs.\nLevel 15\n\n) Effect ACC +51%\nXE CRIT DMG +3%\nM CRIT Rate +3%\n& HP +168\n@ DEF Bonus +6%\n» Gray Equipped Current"
+    },
+    {
+        "item_numero": 13,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 314
+        },
+        "texto_extraido": "{) Deep-Cut Transistor: Harvest & wo\nHarvest ©) w\nOutstanding\n\nLevel 15\n\ngy HP +2,800\nxX CRIT OMG +3%\nQ HP Bonus +2%\n@ [ffect RES +3%\nHM CRIT Rate +3%\n» Gray Equipped Current"
+    },
+    {
+        "item_numero": 14,
+        "posicao_clicada": {
+            "x": 694,
+            "y": 312
+        },
+        "texto_extraido": "(® Overlapping Wristwheel: Insight @ @\nsme ey\nOutstanding ‘eae\nLevel 15 .\n\nW DEF +216\n® [ffect ACC +3%\n@ [Effect RES +3%\nHM CRIT Rate +4%\nSs SPD +8\nsat Diting Equipped Current"
+    },
+    {
+        "item_numero": 15,
+        "posicao_clicada": {
+            "x": 529,
+            "y": 476
+        },
+        "texto_extraido": "€ Swift Mask: Swiftrush = o\nOutstanding Vais- v\n\nLevel 15 .\n\n< ATK +280\nS SPD +8\nx CRIT OMG +6%\nMK CRIT Rate +2\nDEF +22\n= Freya Equipped Current"
+    },
+    {
+        "item_numero": 16,
+        "posicao_clicada": {
+            "x": 1021,
+            "y": 476
+        },
+        "texto_extraido": "€ Ironclad Mask: Unbreakable @& @\nUnbreakable ©) 4\nOutstanding\n\nLevel 15 ™\n\n& ATK +280\n> [Effect ACC +6%\nM CRIT Rate +3%\nxX CRIT OMG +3%\n© ATK Bonus +4%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 17,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 478
+        },
+        "texto_extraido": "(@) Piercing Core: Harvest = a\nOutstanding Bs.\nLevel 15\n\n< ATK Bonus +43%\n> [Effect ACC +6%\nO HP +168\nQ HP Bonus +6%\nM CRIT Rate +3%\nsat Diting Equipped Current"
+    },
+    {
+        "item_numero": 18,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 478
+        },
+        "texto_extraido": "(@ Vitality Core: Wellspring eG ov\ni = A\n\nOutstanding -™.\nLevel 15\n\n> Effect ACC +51%\n$ SPD #3\nQ HP Bonus +6%\nMK CRIT Rate +2\nHP +504\n= Freya Equipped Current"
+    },
+    {
+        "item_numero": 19,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 478
+        },
+        "texto_extraido": "2) Synergy Transistor: Bramble @& w@\nBramble @ Ss\nsutcndin oy\nLevel 15 _\n\nHP +2,800\n@ [ffect RES +3%\n> SPD +5\nHM CRIT Rate +3%\nx CRIT DMG +8%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 20,
+        "posicao_clicada": {
+            "x": 694,
+            "y": 478
+        },
+        "texto_extraido": "£) Wind Transistor: Swiftrush 8 @\nSwiftrush © oN\n>> &,\nOutstanding L\n\nLevel 15\n\ngy HP +2,800\n© Ark +34\nx CRIT DMG +8%\nSH SPD +5\nQ HP Bonus +2%\n= Freya Equipped Current"
+    },
+    {
+        "item_numero": 21,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 476
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ wo\nSwiftrush ©\n2 O\nOutstanding //\nLevel 15\n\n@ DEF +216\nMe CRIT Rate +3%\n© ATK +34\nHP +168\n$ SPO +2\n» Gray Equipped Current"
+    },
+    {
+        "item_numero": 22,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 642
+        },
+        "texto_extraido": "(@) Valiant Core: Onslaught e o\nOnslaught ©\n\nbe\n\nOutstanding |\n\nLevel 15 .\n\na CRIT DMG 51%\nO HP Bonus +A%\n€ ATK Bonus +A%\n@ DEF +22\nMK CRIT Rate +2%\nSs Rosa Equipped Current"
+    },
+    {
+        "item_numero": 23,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 642
+        },
+        "texto_extraido": "(@ High-Speed Core: Swiftrushh @ @\n“ © x a\nEpic =\n\nLevel 15 ~\n(DEF Bonus +38%\n© ATK Bonus +4%\n© HP +288\n$ SPD +2\n@ Effect RES +5%\n) Valerian Equipped Current"
+    },
+    {
+        "item_numero": 24,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 640
+        },
+        "texto_extraido": "(® Agitation Wristwheel: Fury @ @\nFury © \\\n\nEpic en? Bi\n\nLevel 15 i\n\n® ODEF +182\n$ SPD w\n@ ATK +29\n} HP +144\nM CRIT Rate +3%\n@: Rosa Equipped Current"
+    },
+    {
+        "item_numero": 25,
+        "posicao_clicada": {
+            "x": 530,
+            "y": 643
+        },
+        "texto_extraido": "4 Wind Transistor: Swiftrushh 8 @\nSwiftrush © oN\n>> .\nLevel 15\n\ngy HP +2,460\n@ DEF +29\nQ HP Bonus +4%\n@ [ffect RES +2%\n© Ark +14\n» Valerian Equipped Current"
+    },
+    {
+        "item_numero": 26,
+        "posicao_clicada": {
+            "x": 694,
+            "y": 640
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush @) ;\n% O\nLevel 15\n\nW DEF +182\nMK CRIT Rate +1%\n$ SPO +6\n} HP +144\n(@ DEF Bonus +4%\n» Valerian Equipped Current"
+    },
+    {
+        "item_numero": 27,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 640
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n32 O\nLevel 15\n\nW DEF +182\n(@ DEF Bonus +2%\n} HP +144\n> SPD +4\n© ATK +43\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 28,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 640
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ wo\nSwiftrush © \\\n2. O\nLevel 15\n\nWW DEF +182\n© ATK +29\n@ Effect RES +3%\n> Effect ACC +3%\n(@ DEF Bonus +2%\n@. Sania Equipped Current"
+    },
+    {
+        "item_numero": 29,
+        "posicao_clicada": {
+            "x": 530,
+            "y": 805
+        },
+        "texto_extraido": "€ Bladed Mask: Onslaught eo\nOnslaught © .\n\nww (\n\nEpic\n\nLevel 15 -\n\n© ATK +246\nx CRIT DMG +7%\n} HP +144\n> [Effect ACC +5%\n© ATK Bonus +4%\n&: Rosa Equipped Current"
+    },
+    {
+        "item_numero": 30,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 807
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\nne,\nUnique //\nLevel 15\n\nW DEF +163\n@> Effect ACC +6%\n€ Alk +12\n$ SPD +2\nMK CRIT Rate +1%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 31,
+        "posicao_clicada": {
+            "x": 365,
+            "y": 807
+        },
+        "texto_extraido": "€ Wrath Mask: Fury Bo\nOutstanding ~~\nLevel 12\n\n& ATK +229\nQ HP +504\n@ DEF +11\n& ATK Bonus +2%\n@ [Effect ACC +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 32,
+        "posicao_clicada": {
+            "x": 693,
+            "y": 807
+        },
+        "texto_extraido": "(@) High-Speed Core: Swiftrushh @ @\n“ © ke a\nEpic _\n\nLevel 12 ~\n\n2 HP Bonus +32%\n(DEF +10\n@ Effect RES +5%\nMK CRIT Rate +1%\n© ATK +29\n= Freya Equipped Current"
+    },
+    {
+        "item_numero": 33,
+        "posicao_clicada": {
+            "x": 857,
+            "y": 807
+        },
+        "texto_extraido": "2) Synergy Transistor: Bramble @& w@\nMythic o\nLevel 6 <\n\ng HP +1,500\n$ SPD #3\nQ HP Bonus +3%\n@ [ffect RES +4%\nxX CRIT DMG +4%\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 34,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 808
+        },
+        "texto_extraido": "(@ Stern Core: Unbreakable Bo\nUnbreakable @ i\nGOD w\nMythic\n\nLevel 3 f\n%* CRIT Rate +16%\n$ SPD +3\n@ Effect RES +4%\n® [ffect ACC +4%\n(tr +13\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 35,
+        "posicao_clicada": {
+            "x": 1186,
+            "y": 805
+        },
+        "texto_extraido": "{) Collapse Transistor: Insight @ wo\nKeeneye () Ree\nLevel 1 Nae\n\n& HP +500\nMK CRIT Rate +2\n@ Effect RES +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 36,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 181
+        },
+        "texto_extraido": "(@ Stern Core: Unbreakable Bo\nUnbreakable @ i\n= 6 6S\nUnique\n\nLevel 12 f\n<> Effect ACC +33%\n$ SPD +2\nXe CRIT DMG +4%\n@ DEF +8\n@ [Effect RES +2%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 37,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 182
+        },
+        "texto_extraido": "2) Synergy Transistor: Bramble @& w@\nMythic o\nLevel 6 <\n\ng HP +1,500\n$ SPD #3\nQ HP Bonus +3%\n@ [ffect RES +4%\nxX CRIT DMG +4%\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 38,
+        "posicao_clicada": {
+            "x": 693,
+            "y": 343
+        },
+        "texto_extraido": "€ Ironclad Mask: Unbreakable @& @\nUnbreakable © 4\nMythic\n\nLevel 3 ™\n\n© ATK +90\nMK CRIT Rate +2\n$ SPD +3\n®& HP +222\n¥€ CRIT OMG +4%\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 39,
+        "posicao_clicada": {
+            "x": 1021,
+            "y": 345
+        },
+        "texto_extraido": "(@ Stern Core: Unbreakable Bo\nUnbreakable @ i\nGOD w\nMythic\n\nLevel 3 f\n%* CRIT Rate +16%\n$ SPD +3\n@ Effect RES +4%\n® [ffect ACC +4%\n(tr +13\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 40,
+        "posicao_clicada": {
+            "x": 530,
+            "y": 346
+        },
+        "texto_extraido": "2) Synergy Transistor: Bramble @& w@\nMythic o\nLevel 3 ~\n\nHP +900\nS SPD +3\nQ HP Bonus +3%\n@ [ffect RES +4%\n@ DEF +13\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 41,
+        "posicao_clicada": {
+            "x": 1187,
+            "y": 346
+        },
+        "texto_extraido": "(@ Rebound Core: Bramble in|\nBramble @)\n\nA&A\n\nOutstanding 9,\n\nLevel 3\n\nxe CRIT DMG +20%\n@ [ffect RES +3%\n€ Alk +17\n& ATK Bonus +2%\nMK CRIT Rate +2%\nSs Holden Equipped Current"
+    },
+    {
+        "item_numero": 42,
+        "posicao_clicada": {
+            "x": 857,
+            "y": 507
+        },
+        "texto_extraido": "€ Observation Mask: Insight Bo\nKeeneye () 40\no> fs\nLevel 1 7\n\n& ATK +50\nMK CRIT Rate +2\nxX CRIT OMG +3%\n®& HP +192\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 43,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 509
+        },
+        "texto_extraido": "{) Wind Transistor: Swiftrushh @ wo\nSwiftrush © aN\n>> &,\nOutstanding L\n\nLevel 3\n\n& HP +760\nMK CRIT Rate +2\n€ Alk +17\nQ HP Bonus +2%\n@ [Effect RES +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 44,
+        "posicao_clicada": {
+            "x": 203,
+            "y": 510
+        },
+        "texto_extraido": "(@ Rebound Core: Bramble in|\nBramble @)\n\nA&A\n\nOutstanding 9,\nLevel 3\n\n%* CRIT Rate +13%\n& HP +168\n@ [Effect ACC +3%\nQ HP Bonus +2%\nxX CRIT OMG +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 45,
+        "posicao_clicada": {
+            "x": 530,
+            "y": 507
+        },
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\nanne,\nOutstanding Z\nLevel 3\n\nW DEF +60\n© Ark +17\n(@ DEF Bonus +2%\n®& HP +168\n$ SPD +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 46,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 510
+        },
+        "texto_extraido": "{) Collapse Transistor: Insight @ wo\nKeeneye () Ree\nLevel 1 Nao\n\n& HP +500\n© Ark +22\n@ [Effect RES +3%\n$ SPD +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 47,
+        "posicao_clicada": {
+            "x": 1186,
+            "y": 510
+        },
+        "texto_extraido": "{) Collapse Transistor: Insight @ wo\nKeeneye () Ree\nLevel 1 Nae\n\n& HP +500\nMK CRIT Rate +2\n@ Effect RES +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 48,
+        "posicao_clicada": {
+            "x": 365,
+            "y": 673
+        },
+        "texto_extraido": "(@ Quantum Core: Insight in|\nKeeneye () .\n\n® er\nMythic oe\nLevel 1 .\n\n(DEF Bonus +15%\nxX CRIT OMG +4%\n@ [Effect RES +3%\n& ATK Bonus +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 49,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 673
+        },
+        "texto_extraido": "(@) Lightcone Core: Time in|\n\nTimeweave @) /\n\nOW OW po\n\nMythic A\\\n< ATK Bonus +15%\n$ SPD +3\n@ Effect RES +4%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 50,
+        "posicao_clicada": {
+            "x": 694,
+            "y": 674
+        },
+        "texto_extraido": "2) Illusion Transistor: Time Bo\nTimeweave @) a\nYW i~\nMythic gy\nLevel 1 ~\n\n& HP +500\nMK CRIT Rate +2\n@ Effect RES +4%\n$ SPD +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 51,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 674
+        },
+        "texto_extraido": "2) Illusion Transistor: Time Bo\nTimeweave @) a\nYW i~\nMythic gy\nLevel 1 ~\n\n& HP +500\n$ SPD +3\nMK CRIT Rate +2%\n@ [ffect RES +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 52,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 671
+        },
+        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe NE MY Ll,\n\nMythic 1)\n\nLevel 1\n\nW DEF +40\nMK CRIT Rate +2\n& HP +192\n(@ DEF Bonus +2%\n® fffect ACC +4%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 53,
+        "posicao_clicada": {
+            "x": 201,
+            "y": 837
+        },
+        "texto_extraido": "(@) Lightcone Core: Time in|\n\nTimeweave @) /\n\nOW OW po\n\nMythic A\\\n& HP +500\n@ DEF +14\nMK CRIT Rate +2%\n@ [ffect RES +4%\nxX CRIT OMG +4%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 54,
+        "posicao_clicada": {
+            "x": 365,
+            "y": 837
+        },
+        "texto_extraido": "(@) Courage Core: Bloodshed in|\nBloodbath © <e\n\nMythic t fa.\n\nLevel 1 roe\n\n<> Effect ACC +18%\n@ DEF +14\n@ Effect RES +4%\nQ HP Bonus +2%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 55,
+        "posicao_clicada": {
+            "x": 529,
+            "y": 837
+        },
+        "texto_extraido": "{) Deep-Cut Transistor: Harvest & wo\nHarvest © w\nMythic\n\nLevel 1\n\n& HP +500\n$ SPD +3\nQ HP Bonus +2%\n© Ark +22\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 56,
+        "posicao_clicada": {
+            "x": 693,
+            "y": 837
+        },
+        "texto_extraido": "(@ Ascension Core: Strive Bo\nStrive © +\n\nee 1,\nMythic\n\nLevel 1 ¢\n\n& Effect RES +18%\n© Ark +22\nMK CRIT Rate +2%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 57,
+        "posicao_clicada": {
+            "x": 858,
+            "y": 838
+        },
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @) .\n\nA&A ;\n\nMythic\n\nLevel 1 =\n\nW DEF +40\n@ [ffect RES +4%\n@ [Effect ACC +3%\n& HP +192\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 58,
+        "posicao_clicada": {
+            "x": 1186,
+            "y": 835
+        },
+        "texto_extraido": "re) Supercomputing Transistor: Bulwark fy gb\nBulwark @) \\S\nSina ,\n\nMythic lid\nLevel 1 ve\n\n® HP +500\n© Ark +22\nQ HP Bonus +3%\nxX CRIT OMG +4%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 59,
+        "posicao_clicada": {
+            "x": 529,
+            "y": 181
+        },
+        "texto_extraido": "(@ Ascension Core: Strive Bo\nStrive © ,\nnrc\nLevel 1 ¢\nHP +500\n© Ark +19\n€ ATK Bonus +2%\nMK CRIT Rate +2\n(@ DEF Bonus +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 60,
+        "posicao_clicada": {
+            "x": 693,
+            "y": 181
+        },
+        "texto_extraido": "(@ Ascension Core: Strive Bo\nStrive © +\n\nee 1,\nMythic\n\nLevel 1 ¢\n\n& Effect RES +18%\n© Ark +22\nMK CRIT Rate +2%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 61,
+        "posicao_clicada": {
+            "x": 1021,
+            "y": 181
+        },
+        "texto_extraido": "(@ Ascension Core: Strive Bo\nStrive © ,\nnrc\nLevel 1 ¢\n\n© HP +500\n® [ffect ACC +3%\nxX CRIT OMG +3%\nMK CRIT Rate +2\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 62,
+        "posicao_clicada": {
+            "x": 1185,
+            "y": 181
+        },
+        "texto_extraido": "(@ Revival Core: Cure in|\nCure ©\n\nad\n\nMythic ‘\nLevel 1 ~\n\n& HP +500\n@ [Effect RES +A%\nxX CRIT OMG +4%\n$ SPD +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 63,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 182
+        },
+        "texto_extraido": "{) Catalysis Transistor: Strive @ wo\nStrive © /%\nSe wae\nMythic =,\nLevel 1 ~\n\n& HP +500\n$ SPD +3\n€ Alk +22\n@ DEF +13\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 64,
+        "posicao_clicada": {
+            "x": 366,
+            "y": 346
+        },
+        "texto_extraido": "2) Synergy Transistor: Bramble @& w@\nBramble @ we\nRAR >\nMythic o |\nLevel 1 <—\n\n& HP +500\n@ [ffect RES +4%\n$ SPD +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 65,
+        "posicao_clicada": {
+            "x": 202,
+            "y": 674
+        },
+        "texto_extraido": "re) Supercomputing Transistor: Bulwark fy gb\nBulwark @) \\S\n++ ,\nMythic\nLevel 1 va\n\n& HP +500\n@ DEF +13\n@ [Effect RES +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 66,
+        "posicao_clicada": {
+            "x": 857,
+            "y": 354
+        },
+        "texto_extraido": "< Filtering Mask: Bulwark Bo\nBulwark @) a fi\nMythic 7\nLevel 1 R\n\n& ATK +50\n$ SPD +3\n& HP +222\nMK CRIT Rate +2\n@ [Effect ACC +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 67,
+        "posicao_clicada": {
+            "x": 203,
+            "y": 357
+        },
+        "texto_extraido": "(@ Rebound Core: Bramble in|\nBramble @)\n\nA&A\n\nMythic 9,\nLevel 1\n\n& ATK +50\n®& HP +192\nxX CRIT OMG +3%\n& ATK Bonus +2%\n(@ DEF Bonus +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 68,
+        "posicao_clicada": {
+            "x": 693,
+            "y": 520
+        },
+        "texto_extraido": "(@) Fusion Core: Bulwark in|\nBulwark @)\nPH\nMythic Si\nLevel 1\n(DEF Bonus +15%\nQ HP Bonus +3%\nMK CRIT Rate +2%\n@ DEF +13\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 69,
+        "posicao_clicada": {
+            "x": 530,
+            "y": 685
+        },
+        "texto_extraido": "{) Wind Transistor: Swiftrushh @ wo\nSwiftrush © aN\n>> &,\nMythic L\n\nLevel 1\n\n& HP +500\nMK CRIT Rate +2\n@ Effect RES +4%\nxX CRIT OMG +4%\ne Celince Equipped Current"
+    },
+    {
+        "item_numero": 70,
+        "posicao_clicada": {
+            "x": 1022,
+            "y": 846
+        },
+        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable @\nUnbreakable @\n\nGOD (4q\nLevel 1\n\n® ODEF +40\n© Ark +22\n@ [Effect RES +3%\n(@ DEF Bonus +2%\nNot equipped by Animuses."
+    }
+]
