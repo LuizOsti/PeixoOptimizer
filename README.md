@@ -1,2 +1,2 @@
 # PeixoOptimizer
-A gear optmizer with gear scanner for Etheria Restart
+A gear optimizer with gear scanner for Etheria Restart
