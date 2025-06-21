@@ -9,7 +9,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import pyscreeze
 
 # --- CONFIGURAÇÕES ---
-# Garanta que o caminho para o Tesseract está correto no seu sistema
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Região onde o texto com a descrição do item aparece após o clique
@@ -27,13 +26,13 @@ REGIAO_DOS_ITENS = (169, 127, 1146, 800)
 
 # --- CONFIGURAÇÕES DE COMPORTAMENTO ---
 NIVEL_CONFIANCA = 0.85 # Nível de confiança para encontrar as imagens
-SCROLL_AMOUNT = -700   # Quantidade de pixels a rolar para baixo (valor negativo)
+SCROLL_AMOUNT = -700   # Quantidade de pixels a rolar para baixo
 SCROLL_PAUSE_TIME = 2  # Pausa em segundos após rolar, para a UI estabilizar
 MAX_WORKERS = 8        # Número de threads para processamento OCR paralelo
 DISTANCIA_MINIMA = 30  # Distância em pixels para considerar dois itens como distintos
 ARQUIVO_SAIDA = 'inventario_final_refatorado.json'
 
-# --- FUNÇÕES AUXILIARES (sem alterações) ---
+# --- FUNÇÕES AUXILIARES ---
 
 def agrupar_posicoes_proximas(lista_posicoes, distancia_minima=DISTANCIA_MINIMA):
     """Agrupa posições muito próximas para evitar detectar o mesmo item várias vezes na mesma tela."""
@@ -77,12 +76,7 @@ def main():
     print("Scanner com Memória Inteligente (versão refatorada) começará em 3 segundos...")
     time.sleep(3)
     start_time = time.time()
-
-    # <<< MUDANÇA PRINCIPAL 1: A MEMÓRIA MESTRA >>>
-    # Este conjunto armazenará o centro (x, y) de CADA item já clicado.
-    # É a nossa memória de longo prazo para evitar reprocessamento.
     centros_de_itens_ja_clicados = set()
-    
     resultados_finais = []
     item_contador_global = 0
     falhas_consecutivas = 0
@@ -110,10 +104,6 @@ def main():
         # Agrupa posições muito próximas para ter uma lista limpa de itens na tela
         posicoes_unicas_tela_atual = agrupar_posicoes_proximas(posicoes_encontradas_na_tela)
         print(f"Encontrados {len(posicoes_unicas_tela_atual)} itens únicos na tela atual.")
-
-        # <<< MUDANÇA PRINCIPAL 2: O SISTEMA DE FILTRAGEM >>>
-        # Filtra a lista de itens da tela atual, mantendo apenas aqueles
-        # que ainda não foram clicados (comparando com a memória mestra).
         novas_posicoes_nesta_tela = []
         for pos in posicoes_unicas_tela_atual:
             centro_pos = pyautogui.center(pos)
@@ -129,7 +119,7 @@ def main():
         
         # --- Lógica de Processamento e Parada ---
         if novas_posicoes_nesta_tela:
-            falhas_consecutivas = 0 # Reseta o contador de falhas pois encontramos trabalho a fazer
+            falhas_consecutivas = 0 
             print(f"Fase 2: Processando {len(novas_posicoes_nesta_tela)} itens NOVOS encontrados...")
 
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -137,10 +127,7 @@ def main():
                 for posicao in novas_posicoes_nesta_tela:
                     item_contador_global += 1
                     centro_do_item = pyautogui.center(posicao)
-                    
-                    # <<< MUDANÇA PRINCIPAL 3: ATUALIZANDO A MEMÓRIA >>>
-                    # Adiciona o centro do item à memória mestra ANTES de processar
-                    # para evitar que seja adicionado à fila novamente.
+                
                     centros_de_itens_ja_clicados.add(centro_do_item)
                     
                     # Clica no item e tira o screenshot da descrição
@@ -170,9 +157,6 @@ def main():
         if falhas_consecutivas >= 2:
             print("\nNenhum item novo encontrado após múltiplas tentativas. Considerado fim do inventário.")
             break
-            
-        # <<< MUDANÇA PRINCIPAL 4: ROLAGEM ÚNICA POR CICLO >>>
-        # Rola para baixo apenas UMA VEZ por ciclo do loop `while`.
         print("Fase 3: Rolando para a próxima seção do inventário...")
         pyautogui.scroll(SCROLL_AMOUNT)
         time.sleep(SCROLL_PAUSE_TIME)
