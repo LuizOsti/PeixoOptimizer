@@ -7,172 +7,126 @@ import json
 import math
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import pyscreeze
+import os
 
-# --- CONFIGURAÇÕES ---
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-# Região onde o texto com a descrição do item aparece após o clique
 REGIAO_TEXTO_DIREITA = (1352, 140, 468, 510)
-
-# Lista de imagens de ícones que o script deve procurar
-IMAGENS_MODELO = [
-    'icone_item.png', 'icone_item1.png', 'icone_item2.png', 
+PASTA_TEMPLATES = 'scans_templates'
+NOMES_ARQUIVOS_MODELO = [
+    'icone_item.png', 'icone_item1.png', 'icone_item2.png',
     'icone_item3.png', 'icone_item4.png', 'icone_item5.png',
     'icone_item6.png', 'icone_item7.png'
 ]
+IMAGENS_MODELO = [os.path.join(PASTA_TEMPLATES, nome) for nome in NOMES_ARQUIVOS_MODELO]
+REGIAO_DOS_ITENS = (169, 127, 1146, 700)
 
-# Região principal onde os itens do inventário são exibidos
-REGIAO_DOS_ITENS = (169, 127, 1146, 800) 
+pyautogui.PAUSE = 0
+NIVEL_CONFIANCA = 0.85
+MAX_WORKERS = 8
+DISTANCIA_MINIMA_AGRUPAMENTO = 30
+PAUSA_POS_CLIQUE = 0.0001
+SCROLL_AMOUNT = -3000
+ARQUIVO_SAIDA = 'gear.json'
 
-# --- CONFIGURAÇÕES DE COMPORTAMENTO ---
-NIVEL_CONFIANCA = 0.85 # Nível de confiança para encontrar as imagens
-SCROLL_AMOUNT = -700   # Quantidade de pixels a rolar para baixo
-SCROLL_PAUSE_TIME = 2  # Pausa em segundos após rolar, para a UI estabilizar
-MAX_WORKERS = 8        # Número de threads para processamento OCR paralelo
-DISTANCIA_MINIMA = 30  # Distância em pixels para considerar dois itens como distintos
-ARQUIVO_SAIDA = 'inventario_final_refatorado.json'
-
-# --- FUNÇÕES AUXILIARES ---
-
-def agrupar_posicoes_proximas(lista_posicoes, distancia_minima=DISTANCIA_MINIMA):
-    """Agrupa posições muito próximas para evitar detectar o mesmo item várias vezes na mesma tela."""
-    if not lista_posicoes:
-        return []
+def agrupar_posicoes_proximas(lista_posicoes):
+    if not lista_posicoes: return []
     posicoes_unicas = []
-    # Ordenar ajuda a ter um processamento mais consistente
     lista_posicoes.sort(key=lambda p: (p.top, p.left))
     for pos in lista_posicoes:
         centro_pos = pyautogui.center(pos)
-        if not any(math.dist(pyautogui.center(unica), centro_pos) < distancia_minima for unica in posicoes_unicas):
+        if not any(math.dist(pyautogui.center(unica), centro_pos) < DISTANCIA_MINIMA_AGRUPAMENTO for unica in posicoes_unicas):
             posicoes_unicas.append(pos)
     return posicoes_unicas
 
-def worker_ocr(screenshot, item_info):
-    """Processa uma imagem para extrair texto usando Tesseract OCR."""
+def normalizar_texto(texto):
+    return "".join(texto.lower().split())
+
+def worker_ocr(screenshot):
     try:
         imagem_cv = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
-        
-        # Pré-processamento da imagem para melhorar a qualidade do OCR
-        imagem_grande = cv2.resize(imagem_cv, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        fator_resize = 2.0
+        imagem_grande = cv2.resize(imagem_cv, None, fx=fator_resize, fy=fator_resize, interpolation=cv2.INTER_CUBIC)
         imagem_cinza = cv2.cvtColor(imagem_grande, cv2.COLOR_BGR2GRAY)
-        _, imagem_processada = cv2.threshold(imagem_cinza, 127, 255, cv2.THRESH_BINARY)
-        imagem_processada = cv2.bitwise_not(imagem_processada)
-        
-        config_tesseract = '--psm 6'
+        _, imagem_processada = cv2.threshold(imagem_cinza, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+        config_tesseract = '--psm 6 --oem 1'
         texto_extraido = pytesseract.image_to_string(imagem_processada, lang='eng', config=config_tesseract)
-        
-        resultado = {
-            'item_numero': item_info['numero'],
-            'posicao_clicada': item_info['posicao'],
-            'texto_extraido': texto_extraido.strip()
-        }
-        return resultado
+        return texto_extraido.strip()
     except Exception as e:
-        print(f"Erro no worker OCR para o item {item_info.get('numero')}: {e}")
-        return None
-
+        return f"ERRO_OCR: {e}"
 
 def main():
-    print("Scanner com Memória Inteligente (versão refatorada) começará em 3 segundos...")
+    print("Gear Scanner iniciará em 3 segundos...")
     time.sleep(3)
     start_time = time.time()
-    centros_de_itens_ja_clicados = set()
+
+    identificadores_de_texto_ja_vistos = set()
     resultados_finais = []
     item_contador_global = 0
     falhas_consecutivas = 0
-    
+
     while True:
-        print("\n" + "="*50)
-        print("Fase 1: Escaneando a área de itens visível...")
-        
-        # Encontra todas as ocorrências de todos os modelos de ícone na tela atual
+        print("\n--- Procurando ícones...")
         posicoes_encontradas_na_tela = []
         for modelo in IMAGENS_MODELO:
             try:
                 encontrados = list(pyautogui.locateAllOnScreen(
-                    modelo,
-                    confidence=NIVEL_CONFIANCA,
-                    region=REGIAO_DOS_ITENS,
-                    grayscale=True
+                    modelo, confidence=NIVEL_CONFIANCA, region=REGIAO_DOS_ITENS, grayscale=True
                 ))
-                if encontrados:
-                    posicoes_encontradas_na_tela.extend(encontrados)
-            except (pyscreeze.ImageNotFoundException, FileNotFoundError):
-                # Ignora se um modelo de imagem específico não for encontrado
-                continue
+                posicoes_encontradas_na_tela.extend(encontrados)
+            except pyscreeze.PyScreezeException: continue
         
-        # Agrupa posições muito próximas para ter uma lista limpa de itens na tela
-        posicoes_unicas_tela_atual = agrupar_posicoes_proximas(posicoes_encontradas_na_tela)
-        print(f"Encontrados {len(posicoes_unicas_tela_atual)} itens únicos na tela atual.")
-        novas_posicoes_nesta_tela = []
-        for pos in posicoes_unicas_tela_atual:
-            centro_pos = pyautogui.center(pos)
-            
-            # Verifica se o centro do item encontrado está longe o suficiente de TODOS os itens já clicados
-            e_realmente_novo = not any(
-                math.dist(centro_pos, centro_ja_visto) < DISTANCIA_MINIMA 
-                for centro_ja_visto in centros_de_itens_ja_clicados
-            )
-            
-            if e_realmente_novo:
-                novas_posicoes_nesta_tela.append(pos)
+        posicoes_para_clicar = agrupar_posicoes_proximas(posicoes_encontradas_na_tela)
         
-        # --- Lógica de Processamento e Parada ---
-        if novas_posicoes_nesta_tela:
-            falhas_consecutivas = 0 
-            print(f"Fase 2: Processando {len(novas_posicoes_nesta_tela)} itens NOVOS encontrados...")
-
-            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-                tarefas_ocr = []
-                for posicao in novas_posicoes_nesta_tela:
-                    item_contador_global += 1
-                    centro_do_item = pyautogui.center(posicao)
-                
-                    centros_de_itens_ja_clicados.add(centro_do_item)
-                    
-                    # Clica no item e tira o screenshot da descrição
-                    pyautogui.click(centro_do_item, clicks=1, interval=0.01, duration=0.01)
-                    time.sleep(0.05) # Pequena pausa para a UI reagir ao clique
-                    
-                    screenshot = pyautogui.screenshot(region=REGIAO_TEXTO_DIREITA)
-                    item_info = {
-                        'numero': item_contador_global,
-                        'posicao': {'x': int(centro_do_item.x), 'y': int(centro_do_item.y)}
-                    }
-                    tarefas_ocr.append(executor.submit(worker_ocr, screenshot, item_info))
-                
-                # Coleta os resultados das tarefas OCR
-                for futura_tarefa in as_completed(tarefas_ocr):
-                    resultado = futura_tarefa.result()
-                    if resultado:
-                        resultados_finais.append(resultado)
-            
-            print(f"Leva de {len(novas_posicoes_nesta_tela)} itens processada. Total acumulado na memória: {len(centros_de_itens_ja_clicados)} itens.")
-        
-        else: # Nenhum item NOVO foi encontrado na tela visível
+        if not posicoes_para_clicar:
+            print("Nenhum ícone de item encontrado neste ciclo.")
             falhas_consecutivas += 1
-            print(f"Fase 2: Nenhum item novo encontrado nesta tela. (Falha consecutiva #{falhas_consecutivas})")
+        else:
+            print(f"Coletando {len(posicoes_para_clicar)} screenshots...")
+            screenshots_para_processar = []
+            for posicao in posicoes_para_clicar:
+                pyautogui.click(pyautogui.center(posicao))
+                time.sleep(PAUSA_POS_CLIQUE)
+                screenshots_para_processar.append(pyautogui.screenshot(region=REGIAO_TEXTO_DIREITA))
+            
+            print("Processando OCR em paralelo...")
+            resultados_ocr_da_tela = []
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                tarefas_ocr = [executor.submit(worker_ocr, screenshot) for screenshot in screenshots_para_processar]
+                for futura_tarefa in as_completed(tarefas_ocr):
+                    resultados_ocr_da_tela.append(futura_tarefa.result())
+            
+            print("Verificando resultados...")
+            itens_realmente_novos_nesta_leva = 0
+            for texto_original in resultados_ocr_da_tela:
+                if not texto_original or "ERRO_OCR" in texto_original: continue
+                id_do_texto = normalizar_texto(texto_original)
+                if id_do_texto not in identificadores_de_texto_ja_vistos:
+                    itens_realmente_novos_nesta_leva += 1
+                    item_contador_global += 1
+                    identificadores_de_texto_ja_vistos.add(id_do_texto)
+                    item_formatado = {'item_numero': item_contador_global, 'texto_extraido': texto_original}
+                    resultados_finais.append(item_formatado)
+            
+            print(f"{itens_realmente_novos_nesta_leva} itens novos encontrados.")
 
-        # Condição de parada: se por 2 vezes seguidas não encontramos nada novo, assumimos que acabou.
+            if itens_realmente_novos_nesta_leva == 0:
+                falhas_consecutivas += 1
+            else:
+                falhas_consecutivas = 0
+                print("Rolando para baixo...")
+                pyautogui.scroll(SCROLL_AMOUNT)
+
         if falhas_consecutivas >= 2:
-            print("\nNenhum item novo encontrado após múltiplas tentativas. Considerado fim do inventário.")
+            print("\nFim do inventário.")
             break
-        print("Fase 3: Rolando para a próxima seção do inventário...")
-        pyautogui.scroll(SCROLL_AMOUNT)
-        time.sleep(SCROLL_PAUSE_TIME)
 
-    # --- Finalização ---
-    end_time = time.time()
-    resultados_finais.sort(key=lambda r: r['item_numero'])
-    
-    print("\n" + "="*50)
-    print("PROCESSO CONCLUÍDO!")
-    print(f"Tempo total de execução: {end_time - start_time:.2f} segundos.")
-    print(f"Total de itens únicos escaneados: {len(resultados_finais)}")
-    
+    print("\n" + "="*50 + "\nPROCESSO CONCLUÍDO!")
+    print(f"Total de {len(resultados_finais)} itens únicos foram lidos e salvos.")
     with open(ARQUIVO_SAIDA, 'w', encoding='utf-8') as f:
         json.dump(resultados_finais, f, ensure_ascii=False, indent=4)
-    print(f"Resultados salvos com sucesso em '{ARQUIVO_SAIDA}'")
+    print(f"Resultados salvos em '{ARQUIVO_SAIDA}'.")
+    end_time = time.time()
+    print(f"Tempo de execução total: {end_time - start_time:.2f} segundos.")
 
 if __name__ == "__main__":
     main()
