@@ -1,2346 +1,482 @@
 [
     {
         "item_numero": 1,
-        "texto_extraido": "© Observation Mask: Insight & @\nMythic v O\nLevel 15 17\n\n© ATK +330\n@ Effect ACC +1%\nxX CRIT DMG +11%\nBB sro +3\n& ATK Bonus +5%\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 2,
-        "texto_extraido": "® Fate Wristwheel: Time Bo\nWe WT My ie\n\nMythic oe\n\nLevel 15\n\n® OEF +250\n3% CRIT Rate +6%\n(Effect RES +3%\nArk +19\ngS SPD +4\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 3,
-        "texto_extraido": "© Chase Mask: Pursuit Bo\nMomentum (®) Te.\nMythic Te\nLevel 15 wo\n\n© ATK +330\nGD ATK Bonus +3%\nxX CRIT OMG +6%\n<> Effect ACC +13%\nGe CRIT Rate +2%\n&. Rosa Equipped Current"
-    },
-    {
-        "item_numero": 4,
-        "texto_extraido": "Q Illusion Transistor: Time Bo\nMythic s\n\nLevel 15 =\n\n& HP +3,300\n3% CRIT Rate +4%\nDEF +14\nxX« CRIT DMG +10%\n@ Effect RES +7%\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 5,
-        "texto_extraido": "Q Collapse Transistor: Insight @ @\nKeeneye @) rS\nPDP ord\nLevel 15 ‘sy\n\n® HP +3,300\nXe CRIT DMG +10%\n%* CRIT Rate +4%\n(Effect RES +3%\nAk +19\nrg Diting Equipped Current"
-    },
-    {
-        "item_numero": 6,
-        "texto_extraido": "4 Quantum Core: Insight go\noo &\nMythic Ne\nLevel 15 >\n\n%* CRIT Rate +40%\nEy HP Bonus +2%\nxX CRIT DMG +10%\n& [Effect RES +4,\n@ Effect ACC +7%\nsgt Diting Equipped Current"
-    },
-    {
-        "item_numero": 7,
-        "texto_extraido": "@ Lightcone Core: Time eo\nTimeweave ©\n\n+ y+ aks\nMythic Ou\nLevel 15 SN\n€ ATK Bonus +50%\nSd SPD +6\n@ Effect RES +7%\n© ATK +38\nEy Effect ACC +34\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 8,
-        "texto_extraido": "© Piercing Mask: Harvest eo\nHarvest ©\n\na 4\nMythic -\nLevel 15 yo\n© AIK +330\n& HP +414\nMB ATK Bonus +3%\n%* CRIT Rate +6%\n| CRIT DMG +3%\nng Diting Equipped Current"
-    },
-    {
-        "item_numero": 9,
-        "texto_extraido": "Piercing Core: Harvest ao\nHarvest @) AA\\\nMythic BS\nLevel 15\n\n%* CRIT Rate +40%\n(@ DEF Bonus +10%\nGD ATK Bonus +3%\nx CRIT DMG +7%\nEffect RES +3%\nrg Diting Equipped Current"
-    },
-    {
-        "item_numero": 10,
-        "texto_extraido": "2 Resentful Transistor: Fuy 8 wo\nee 29\nMythic B/\nLevel 15 ‘y\n\n® HP +3,300\nx CRIT DMG +6%\n@ Effect RES +10%\nGH SPD 3\n@ DEF +97\n%. Rosa Equipped Current"
-    },
-    {
-        "item_numero": 11,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nMythic j/\nLevel 15 ~\n\n© HP +3,300\nSs SPD +9\nFy HP Bonus +3%,\n@ [Effect RES +7%\n@ DEF +27\nSS) Valerian Equipped Current"
-    },
-    {
-        "item_numero": 12,
-        "texto_extraido": "(® Momentum Wristwheel: Pursuit Hf @\nMomentum ©) ~~\nri Laat\nLevel 15 al\n\n® OE +250\n* CRIT Rate +4%\n@ [ffect ACC +3%\nBB Effect RES +A%\no HP +828\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 13,
-        "texto_extraido": "© Swift Mask: Swiftrush a &\nMythic ves’\nLevel 15 :\n\n© ATK +330\nMB ATK Bonus +2%\ni) dtr +13\nBB CRIT Rate +11%\n@ [ffect ACC +3%\n& Gray Equipped Current"
-    },
-    {
-        "item_numero": 14,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble @)\n\nAAA\n\nMythic J\n\nLevel 15\n\n> Effect ACC +60%\n(@ DEF Bonus +5%\nATK +19\n@ DEF +27\n& [Effect RES +10%\n) Kazuyo the Reverie Equipped Current"
-    },
-    {
-        "item_numero": 15,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAB \\\n\nMythic\n\nLevel 15\n\nW® DEF +250\nS SPD +6\n@® Effect ACC +7%\nATK +22\n® HP +798\n~) Kazuyo the Reverie Equipped Current"
-    },
-    {
-        "item_numero": 16,
-        "texto_extraido": "High-Speed Core: Swiftrushh & @\nMythic \\—~\n\nLevel 15 ~\n\n<> Effect ACC +60%\n@ [Effect RES +7%\n%K CRIT Rate +5%\nS SPD +6\n%€ CRIT DMG +6%\n& Gray Equipped Current"
-    },
-    {
-        "item_numero": 17,
-        "texto_extraido": "(> High-Speed Core: Swiftrush & @\nMythic ~~\n\nLevel 15 ~\n\n%& CRIT Rate +40%\n@ [Effect ACC +10%\nDEF +14\n(Effect RES +4,\nHP Bonus +5%\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 18,
-        "texto_extraido": "f High-Speed Core: Swiftush & @\n“i ®© \\ a\nMythic ~~\n\nLevel 15 ~\n\n<)> Effect ACC +60%\nfy CRIT DMG +4%\n(DEF Bonus +10%\nFR CRIT Rate +2%\ni Ark +19\n~) Kazuyo the Reverie Equipped Current"
-    },
-    {
-        "item_numero": 19,
-        "texto_extraido": "f Rebound Core: Bramble zoe\nBramble @)\n\nA&A\n\nMythic J\n\nLevel 15\n\n( DEF Bonus +50%\nS SPD +6\nEffect RES +4%\n} HP Bonus +7%\n& HP +576\n3] Valerian Equipped Current"
-    },
-    {
-        "item_numero": 20,
-        "texto_extraido": "f High-Speed Core: Swiftush & @\n“ © \\ a\nMythic ~~\n\nLevel 15 ~\n(DEF Bonus +50%\nfy CRIT DMG +3%\n% HP Bonus +5%\nS SPD +]\n&@ [Effect RES +6%\n) Kazuyo the Reverie Equipped Current"
-    },
-    {
-        "item_numero": 21,
-        "texto_extraido": "f High-Speed Core: Swiftush & @\n“i © he\nMythic ~~\n\nLevel 15 ~\n\n2 HP Bonus +50%\nFR CRIT Rate +2%\n(RB Effect RES +3%\n© AIK +65\nS SPD +6\neo] Lingluo Equipped Current"
-    },
-    {
-        "item_numero": 22,
-        "texto_extraido": "High-Speed Core: Swiftrushh @& @\n“vs ®© a\nMythic ~~\n\nLevel 15 ~\n\n<)> Effect ACC +60%\nS SPD +6\nfy CRIT DMG +4%\nHP Bonus +o%\n& Effect RES +10%\n2 Heinrich Equipped Current"
-    },
-    {
-        "item_numero": 23,
-        "texto_extraido": "2 Wind Transistor: Swiftush @ @\n333, is\nMythic A\nLevel 15\n\n© HP +3,300\nSs SPD +12\n@ [Effect RES +10%\nGe CRIT Rate +2%\nDEF +14\n) Kazuyo the Reverie Equipped Current"
-    },
-    {
-        "item_numero": 24,
-        "texto_extraido": "&& Stern Core: Unbreakable Bo\nUnbreakable ©) jg\ncd 4 <N\nMythic »\nLevel 15 f\n@ DEF Bonus +50%\nRD ATK Bonus +29,\nFy HP Bonus +3%,\n% CRIT DMG +7%\n@® [Effect ACC +10%\nSS) Valerian Equipped Current"
-    },
-    {
-        "item_numero": 25,
-        "texto_extraido": "f Quantum Core: Insight =o\nKeeneye (®) jg\nCG we\nOutstanding\n\nLevel 15 A\n%*& CRIT Rate +34%\n(@ DEF Bonus +4%\n@ DEF +29\nXe CRIT DMG +6%\nGB SPD +2\nPD) iting Equipped Current"
-    },
-    {
-        "item_numero": 26,
-        "texto_extraido": "(@® Overlapping Wristwheel: Insight & @\nKeeneye () _\nOutstanding ' Cs |\nLevel 15 ve\n\n@ OEF +216\nEffect ACC +3%\nEffect RES +3%\n%* CRIT Rate +4%\ny& SPD +8\nrg Diting Equipped Current"
-    },
-    {
-        "item_numero": 27,
-        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable ty\nUnbreakable © .\nORURC) f\nMythic\n\nLevel 15\n\n® OEF +250\nay AK +22\n@ Effect RES +6%\n(@ DEF Bonus +5%\n@® [Effect ACC +10%\n3] Valerian Equipped Current"
-    },
-    {
-        "item_numero": 28,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest @& @\nHarvest © a,\nOS o\nOutstanding Co.\n\nLevel 15 .\n\n& HP +2,800\nGy CRIT DMG +3%\nEy HP Bonus +2%\n(Effect RES +3%\n% CRIT Rate +5\nwy Gray Equipped Current"
-    },
-    {
-        "item_numero": 29,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\n“i (@) —_ \"A\nOutstanding as 9\n\nLevel 15 .\n\n© AIK +280\nS& SPD +8\nx CRIT DMG +6%\nGe CRIT Rate +2%\n@ DEF +22\n& Freya Equipped Current"
-    },
-    {
-        "item_numero": 30,
-        "texto_extraido": "Overclocking Core: Pursuit = @\nMomentum @) -\n\nes rat\nD&O, J \\\nOutstanding 0} .\nLevel 15\n\n© ATK Bonus +43%\n> Effect ACC +8%\nDEF +22\n@ DEF Bonus +4%\nfy CRIT DMG +3%\n&. Rosa Equipped Current"
-    },
-    {
-        "item_numero": 31,
-        "texto_extraido": "(& Piercing Core: Harvest eo\nHarvest © 74\nOutstanding SS\nLevel 15\n\n€ ATK Bonus +43%\n@® [Effect ACC +6%\nfa uP +168\n& HP Bonus +6%\n% CRIT Rate +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 32,
-        "texto_extraido": "f Raging Core: Fury eo\nOutstanding ~\n\nLevel 15\n\n%& CRIT Rate +34%\nGy CRIT DMG +3%\nGQ DEF Bonus +2%\nS SPD +5\n@ DEF +29\n&. Rosa Equipped Current"
-    },
-    {
-        "item_numero": 33,
-        "texto_extraido": "Q Swift Transistor: Pursuit ee\nMomentum @® So\nOutstanding Z ,\nLevel 15 wr\n\n& HP +2,800\nMe CRIT Rate +3%\n@ DEF +34\nMe AK +17\n@ Effect RES +6%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 34,
-        "texto_extraido": "Piercing Core: Harvest ao\nHarvest © 74\nOutstanding SS\nLevel 15\n\n@> Effect ACC +51%\nGy CRIT DMG +3%\n%K CRIT Rate +3%\nig +168\n(@ DEF Bonus +6%\nwy Gray Equipped Current"
-    },
-    {
-        "item_numero": 35,
-        "texto_extraido": "(4 Overclocking Core: Pursuit 8 @\nMomentum @® -\nOutstanding 6 7\n\nLevel 15 ~\n\n© ATK +280\nMB ATK Bonus +2%\nQ HP Bonus +4%\n@ [Effect RES +6%\n%K CRIT Rate +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 36,
-        "texto_extraido": "fa Stern Core: Unbreakable Bo\nUnbreakable © yi\nclo we\nOutstanding\n\nLevel 15 f\n(DEF Bonus +43%\nEy HP Bonus +24\nEffect ACC +3,\nXe CRIT DMG +6%\ny§ SPD +10\nSS) Valerian Equipped Current"
-    },
-    {
-        "item_numero": 37,
-        "texto_extraido": "f Vitality Core: Wellspring eo\nWellspring © ak\n66 SS a\nOutstanding -©\n\nLevel 15\n\n<> Effect ACC +51%\nGB SPD +3\n% HP Bonus +6%\nGe CRIT Rate +2%\n& Freya Equipped Current"
-    },
-    {
-        "item_numero": 38,
-        "texto_extraido": "2 Wind Transistor: Swiftush @ @\n“i ®© / NG\nOutstanding A\nLevel 15\n\n© HP +2,800\n© Al +34\nXe CRIT DMG +8%\nS SPD +5\nEy HP Bonus +2%\n& Freya Equipped Current"
-    },
-    {
-        "item_numero": 39,
-        "texto_extraido": "@ High-Speed Core: Swiftush @ @\nvee @) \\ a\nEpic =\n\nLevel 15 ~\n\n2 HP Bonus +38%\n| ATK +14\n@ DEF +19\n& fffect RES +7%\n©) HP +144\nCs] Lingluo Equipped Current"
-    },
-    {
-        "item_numero": 40,
         "texto_extraido": "@ Agitation Wristwheel: Fury  @\no> B= ‘\nEpic Me yy\nLevel 15 —_\n\n® DEF +182\n$s SPD +4\n@ ATK +29\nIO) HP +144\nHR CRIT Rate +3%\nRosa Equipped Current"
     },
     {
-        "item_numero": 41,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n\n3 OP\nOutstanding \\e Z\nLevel 15 —\n\n® OEF +216\n%K CRIT Rate +5\n© ATK +34\n| ae +168\nGB SPD +2\n& Freya Equipped Current"
+        "item_numero": 2,
+        "texto_extraido": "(@® Overlapping Wristwheel: Insight & @\nKeeneye () _\nOutstanding ' Cs |\nLevel 15 ve\n\n@ OEF +216\nEffect ACC +3%\nEffect RES +3%\n%* CRIT Rate +4%\ny& SPD +8\nrg Diting Equipped Current"
     },
     {
-        "item_numero": 42,
-        "texto_extraido": "2 Wind Transistor: Swiftrushh 8 @\nUnique &\nLevel 15\n\n& HP +2,120\nS SPD +4\nx CRIT DMG +4%\n(Effect RES +2%\n% HP Bonus +3%\neo] Lingluo Equipped Current"
+        "item_numero": 3,
+        "texto_extraido": "® Fate Wristwheel: Time Bo\nWe WT My ie\n\nMythic oe\n\nLevel 15\n\n® OEF +250\n3% CRIT Rate +6%\n(Effect RES +3%\nArk +19\ngS SPD +4\n2 Heinrich Equipped Current"
     },
     {
-        "item_numero": 43,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n\n$s CP\nEpic _\nLevel 15 —_\n\n® DEF +182\n© ATK +29\n@ Effect RES +5%\n@ Effect ACC +5%\n|) DEF Bonus +2\nCs] Lingluo Equipped Current"
-    },
-    {
-        "item_numero": 44,
-        "texto_extraido": "High-Speed Core: Swiftrushh & @\n“ © a\nUnique ~~\n\nLevel 15 ~\n\n© ATK Bonus +33%\nDEF Bonus +2%\n@ Effect ACC +4%\nEy HP Bonus +2%\n@ [Effect RES +4%\n& Gray Equipped Current"
-    },
-    {
-        "item_numero": 45,
-        "texto_extraido": "@ Valiant Core: Onslaught Bo\nOnslaught ©\n\n&s\n\nLevel 15\n\nxe CRIT DMG +46%\nSH SPD +6\n© ATK +9\n|@) Effect RES +2%\nae CRIT Rate +1%\n% Rosa Equipped Current"
-    },
-    {
-        "item_numero": 46,
-        "texto_extraido": "f High-Speed Core: Swiftrushh & @\n“i ®© \\ a\nUnique ~~\n\nLevel 15 ~\n\n@ Effect ACC +39%\n(a +8\n& HP +240\n© ATK Bonus +3%\n© ATK +24\n& Freya Equipped Current"
-    },
-    {
-        "item_numero": 47,
-        "texto_extraido": "f High-Speed Core: Swiftush & @\n“i © he\nUnique ~~\n\nLevel 15 ~\n\n2 HP Bonus +33%\nGB SPD +2\nATK Bonus +2%\n@ Effect RES +6%\n(@ DEF Bonus +3%\neo] Lingluo Equipped Current"
-    },
-    {
-        "item_numero": 48,
-        "texto_extraido": "© Instant Wristwheel: Swiftrush @ @\nSwiftrush ©\n\n2 OD\nUnique Ne Z\nLevel 15 —\n\n® DEF +163\n<> Effect ACC +6%\nark +12\nBB SPD #2\nGe CRIT Rate +1%\n& Gray Equipped Current"
-    },
-    {
-        "item_numero": 49,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nso OC\nOutstanding \\e\n\nLevel 12\n\nDEF +177\nSPD +3\n@ tr +168\n%* CRIT Rate +5%\n@ [Effect RES +6%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 50,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\n“i © \\\nOutstanding >\n\nLevel 12 ~\n\n2 HP Bonus +36%\n& HP +336\n%K CRIT Rate +A%\nGQ DEF Bonus +2%\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 51,
-        "texto_extraido": "f High-Speed Core: Swiftushh & @\n“ © \\ a\nOutstanding ~~\n\nLevel 12 ~\nHP Bonus +36%\nGe CRIT Rate +2%\n@ Effect ACC +6%\nx CRIT DMG +6%\n© Aik +34\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 52,
-        "texto_extraido": "f High-Speed Core: Swiftruhh @ @\nial © \\ a\nEpic >\n\nLevel 12 ~\n\n2 HP Bonus +32%\n(Q) oer +10\n@ [ffect RES +5%\nMe) CRIT Rate +1%\n© ATK +29\n& Freya Equipped Current"
-    },
-    {
-        "item_numero": 53,
-        "texto_extraido": "© Vital Mask: Wellspring |\nWellspring © (\n66 ~ of\nEpic =o\nLevel 9\n\n© ATK +156\nSB SPD +2\nEffect ACC +24\nCRIT DMG +2%\nCRIT Rate +1%\neS] Lingluo Equipped Current"
-    },
-    {
-        "item_numero": 54,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © i\n\nMythic -\n\nLevel 6 ye\n\n© AIK +150\n| DEF +13\nGB ATK Bonus +3%\n[Effect ACC +A%\nGe uP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 55,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nMythic {/\nLevel 6 ~/\n\n© HP +1,500\nBB Effect RES +4%\nsro +3\nEy HP Bonus +2%\nArk +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 56,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nMythic {/\nLevel 6 ~\n\n© HP +1,500\nGB SPD +3\nEy HP Bonus +3%\n(Effect RES +4%\nGy CRIT DMG +4%\n&S Holden Equipped Current"
-    },
-    {
-        "item_numero": 57,
-        "texto_extraido": "Q Wind Transistor: Swiftush 8 @\n333, NS\nMythic V4 ‘\nLevel 6\n\n© HP +1,500\nsro +3\nArk +29\nGS CRIT OMG +4%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 58,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable © 4\nTOO a!\nMythic\n\nLevel 6 =\n\n© ATK +150\nDEF +13\ni CRIT Rate +2%\nEffect ACC +3Y,\nEr +222\nSS) Valerian Equipped Current"
-    },
-    {
-        "item_numero": 59,
-        "texto_extraido": "© Vision Mask: Time Bo\nTimeweave ™\nMythic ~ Ae\nLevel 3\n\n© ATK +90\nGB ATK Bonus +3%\nEffect ACC +3%\nsro +3\nGe uP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 60,
-        "texto_extraido": "© Vision Mask: Time Bo\nTimeweave © ™\nOutstanding p’ ¢\nLevel 6\n\n© ATK +127\nGB CRIT DMG +3%\nGB ATK Bonus +2%\nmi sro +3\nEffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 61,
-        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORCEC) }\nMythic\n\nLevel 6\n\n@ OEF +115\nDEF Bonus +2%\nEffect ACC +4%\nAk +29\nBP +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 62,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nWoW BY\nMythic SA\nLevel 3 alla.\nx CRIT DMG +24%\nBH Effect RES +A%\nsro +3\nBB DEF Bonus +2%\nGB HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 63,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nMythic P|\nLevel 6\n\n<> Effect ACC +33%\nBy HP Bonus +3%\nMe Ark +29\niP +192\nGy CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 64,
-        "texto_extraido": "(® Momentum Wristwheel: Pursuit Hf @\nMomentum ©) =\nMythic Or Ai\nLevel 3 aa\n\n@ OEF +70\nGP +222\nEffect ACC +3%\nMB DEF Bonus +2%\nBe Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 65,
-        "texto_extraido": "Swift Transistor: Pursuit Be\nMomentum @ So\nMythic Z ,\nLevel 3 ~S\n\n& HP +900\ni DEF +13\nBH Effect RES +3%\nGy HP Bonus +3%\nAtk +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 66,
-        "texto_extraido": "(\\ Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 3\n\n<> Effect ACC +24%\nGB AIK Bonus +3%\nBH Effect RES +3%\nGS CRIT DMG +3%\nDEF +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 67,
-        "texto_extraido": "Q Wind Transistor: Swiftrush 8 @\nial ®© NG\nMythic V4 ;\nLevel 3\n\n& HP +900\nGB CRIT Rate +2%\nBH Effect RES +A%\nGS CRIT DMG +4%\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 68,
-        "texto_extraido": "© Chase Mask: Pursuit Bo\nMomentum ©) Ee.\nMythic rn\nLevel 3 a\n\n© ATK +90\n@ ir +222\nBe sro +3\nGB AIK Bonus +3%\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 69,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nMythic P|\nLevel 3\n\n<> Effect ACC +24%\nMe AK +29\ntr +222\nGy CRIT DMG +3%\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 70,
-        "texto_extraido": "f Stern Core: Unbreakable Be\nUnbreakable © jai\nGOD we\nMythic\n\nLevel 3 f\n%* CRIT Rate +16%\nGB SPD +3\n(RB Effect RES +4%\nSS Effect ACC +4%\nDEF +13\nS Holden Equipped Current"
-    },
-    {
-        "item_numero": 71,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable @\n\nUAC) }\nMythic\n\nLevel 3\n\nDEF +70\nRy Atk +19\ni CRIT Rate +2%\nEffect ACC +3Y,\na +192\nSs Holden Equipped Current"
-    },
-    {
-        "item_numero": 72,
-        "texto_extraido": "(& Lightcone Core: Time ao\nTimeweave © .\n\nLevel 3 _ oS\n@ Effect ACC +20%\n| alg +168\nBB ATK Bonus +2%\nma sro #2\nGB HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 73,
-        "texto_extraido": "© Vision Mask: Time a o\nTimeweave © ™\nOutstanding p’ -\nLevel 3\n\n© AIK +76\nGS CRIT DMG +3%\nBe sro +2\ni DEF +11\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 74,
+        "item_numero": 4,
         "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\noD a!\nMythic\n\nLevel 3 =\n\n© ATK +90\nGe CRIT Rate +2%\nGB SPD +3\n| ae +222\nfy CRIT DMG +4%\nSs Holden Equipped Current"
     },
     {
-        "item_numero": 75,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye © o.\nMythic r O\nLevel 1 7\n\n© AIK +50\n|= | CRIT DMG +4%\n[Effect ACC +3%\nNot equipped by Animuses."
+        "item_numero": 5,
+        "texto_extraido": "(® Momentum Wristwheel: Pursuit Hf @\nMomentum ©) ~~\nri Laat\nLevel 15 al\n\n® OE +250\n* CRIT Rate +4%\n@ [ffect ACC +3%\nBB Effect RES +A%\no HP +828\nNot equipped by Animuses."
     },
     {
-        "item_numero": 76,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\nOutstanding 3\nLevel 3\n\n%* CRIT Rate +13%\n| ig +168\n@ [ffect ACC +3%\nBy HP Bonus +2%\nGy CRIT DMG +3%\nNot equipped by Animuses."
+        "item_numero": 6,
+        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable ty\nUnbreakable © .\nORURC) f\nMythic\n\nLevel 15\n\n® OEF +250\nay AK +22\n@ Effect RES +6%\n(@ DEF Bonus +5%\n@® [Effect ACC +10%\n3] Valerian Equipped Current"
     },
     {
-        "item_numero": 77,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye © o.\nMythic r O\nLevel 1 7\n\n© ATK +50\nGB CRIT Rate +2%\n|= | CRIT DMG +3%\n@ ir +192\nNot equipped by Animuses."
+        "item_numero": 7,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA 1\n\nMythic\n\nLevel 15\n\n® OEF +250\nS SPD +6\n@® Effect ACC +7%\nATK +22\n® HP +798\n& Dinah Equipped Current"
     },
     {
-        "item_numero": 78,
-        "texto_extraido": "(4 Rebound Core: Bramble eo\nBramble ©\n\nAA\n\nOutstanding lJ\nLevel 3\n\nx CRIT DMG +20%\nEffect RES +3%\na Ark +17\nATK Bonus +2%\nGiB CRIT Rate +2%\n&S Holden Equipped Current"
+        "item_numero": 8,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n\n3 OP\nOutstanding \\e Z\nLevel 15 —\n\n® OEF +216\n%K CRIT Rate +5\n© ATK +34\n| ae +168\nGB SPD +2\n& Freya Equipped Current"
     },
     {
-        "item_numero": 79,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © TS\n> e~/\nMythic fey\nLevel 1 ‘sy\n\n& HP +500\nGy HP Bonus +2%\ni DEF +14\nNot equipped by Animuses."
+        "item_numero": 9,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n\n$s CP\nEpic _\nLevel 15 —_\n\n® DEF +182\n© ATK +29\n@ Effect RES +5%\n@ Effect ACC +5%\n|) DEF Bonus +2\nCs] Lingluo Equipped Current"
     },
     {
-        "item_numero": 80,
-        "texto_extraido": "Q Wind Transistor: Swiftush 8 @\n“ © NG\nOutstanding V4 ‘\nLevel 3\n\n& HP +760\nBB CRIT Rate +2%\nArk +17\nEy HP Bonus +2%\nBB Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 10,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nso OC\nOutstanding \\e\n\nLevel 12\n\nDEF +177\nSPD +3\n@ tr +168\n%* CRIT Rate +5%\n@ [Effect RES +6%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 81,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n= S,\nOutstanding \\a\n\nLevel 3\n\n@® DEF +60\nAk +17\n(iD DEF Bonus +2%\n@ tr +168\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 82,
+        "item_numero": 11,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n= S,\nOutstanding \\a\n\nLevel 3\n\n® OE +60\nBB CRIT Rate +2%\n@ [ffect ACC +3%\nBB Effect RES +3%\nArk +17\nNot equipped by Animuses."
     },
     {
-        "item_numero": 83,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © TS\n> e~/\nMythic fey\nLevel 1 ‘sy\n\n& HP +500\nBB Effect RES +A%\nGS CRIT DMG +4%\nBe Ak +29\nGB CRIT Rate +2%\nNot equipped by Animuses."
+        "item_numero": 12,
+        "texto_extraido": "(® Momentum Wristwheel: Pursuit Hf @\nMomentum ©) =\nMythic Or Ai\nLevel 3 aa\n\n@ OEF +70\nGP +222\nEffect ACC +3%\nMB DEF Bonus +2%\nBe Effect RES +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 84,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © TS\n> e~/\nMythic fey\nLevel 1 ‘sy\n\n& HP +500\nBe Ak +22\nBH Effect RES +3%\nBe sro +3\nNot equipped by Animuses."
+        "item_numero": 13,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable @\n\nUAC) }\nMythic\n\nLevel 3\n\nDEF +70\nRy Atk +19\ni CRIT Rate +2%\nEffect ACC +3Y,\na +192\nSs Holden Equipped Current"
     },
     {
-        "item_numero": 85,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © TS\n\ny orn\nMythic fey\nLevel 1 ‘sy\n\n& HP +500\nBe sro +3\nGB CRIT Rate +2%\nNot equipped by Animuses."
+        "item_numero": 14,
+        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORCEC) }\nMythic\n\nLevel 6\n\n@ OEF +115\nDEF Bonus +2%\nEffect ACC +4%\nAk +29\nBP +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 86,
-        "texto_extraido": "( Overlapping Wristwheel: Insight BH @\nKeeneye () ~\n> CY\nMythic Cs\nLevel 1 id\n\n@ DEF +40\n(DEF Bonus +2%\nAtk +19\n@& [ffect Acc +3%\nNot equipped by Animuses."
+        "item_numero": 15,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh @ @\nSwiftrush ©\n\n3 OP\nUnique \\. Z\nLevel 15 —\n\n@ OEF +163\n> Effect ACC +6%\ni Ark +12\nGB SPD +2\nFH CRIT Rate +1%\n~) Kazuyo the Reverie Equipped Current"
     },
     {
-        "item_numero": 87,
+        "item_numero": 16,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n= S,\nOutstanding \\a\n\nLevel 3\n\n@® DEF +60\nAk +17\n(iD DEF Bonus +2%\n@ tr +168\nsro +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 17,
         "texto_extraido": "( Overlapping Wristwheel: Insight BH @\nKeeneye () ~\nMythic Cs\nLevel 1 Ve\n@® DEF +40\nBB Effect RES +3%\n@ [ffect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 88,
-        "texto_extraido": "Q Collapse Transistor: Insight  @\nKeeneye @ eS\n> ord\nMythic fey\nLevel 1 Sy\n\n& HP +500\nBB CRIT Rate +2%\nBB Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 18,
+        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe ‘i\nMythic ou\nLevel 1\n\nDEF +40\nEffect RES +3%\nGQ DEF Bonus +3%\n [ffect Acc +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 89,
-        "texto_extraido": "(4 Quantum Core: Insight Bo\nMythic Ne\nLevel 1 N\n\nx CRIT DMG +18%\n[Effect ACC +3%\nGB CRIT Rate +2%\nsro +3\nMB DEF Bonus +3%\nNot equipped by Animuses."
+        "item_numero": 19,
+        "texto_extraido": "( Overlapping Wristwheel: Insight BH @\nKeeneye () ~\n> CY\nMythic Cs\nLevel 1 id\n\n@ DEF +40\n(DEF Bonus +2%\nAtk +19\n@& [ffect Acc +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 90,
-        "texto_extraido": "Q Collapse Transistor: Insight 8 @\nKeeneye (5) eS\nPP e~/\nMythic fe\nLevel 1 Nay\n\nQ HP +500\nGy HP Bonus +3%\nGB CRIT DMG +4%\nae Ak +29\nBe Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 91,
-        "texto_extraido": "© Vision Mask: Time eo\nTimeweave ™\nMythic ~ ie\nLevel 1 _\n\n© ATK +50\ni +14\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 92,
-        "texto_extraido": "(\\ Quantum Core: Insight Bo\nKeeneye () y\n> La\nMythic x\nLevel 1 “™\n\né HP +500\n@& [ffect Acc +3%\n(DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 93,
-        "texto_extraido": "© Vision Mask: Time a o\nTimeweave () _\nMythic ~ Me\nLevel 1 OF\n\n© ATK +50\nBe sro +3\nGB CRIT Rate +2%\n@& [ffect Acc +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 94,
-        "texto_extraido": "© Vision Mask: Time a o\nTimeweave %\nMythic ~ Me\nLevel 1\n\n© ATK +50\nBe sro +3\nGS CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 95,
-        "texto_extraido": "(\\ Quantum Core: Insight Bo\nKeeneye () y\n> +\nMythic ian WS\nLevel 1 ~\n\n@ DEF Bonus +15%\nGS CRIT DMG +4%\nBH Effect RES +3%\nGB AIK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 96,
-        "texto_extraido": "© Vision Mask: Time a o\nTimeweave %\nWoy &\nMythic ~ Me\nLevel 1\n\n© ATK +50\n@& [ffect Acc +A%\nGB ATK Bonus +2%\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 97,
-        "texto_extraido": "© Vision Mask: Time eo\nTimeweave ™\nMythic ~ ie\nLevel 1\n\n© ATK +50\nGS CRIT OMG +4%\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 98,
-        "texto_extraido": "© Vision Mask: Time Bo\nTimeweave ™\nMythic ~ Ae\nLevel 1\n\n© ATK +50\n[Effect ACC +3%\nGB CRIT Rate +2%\nsro +3\nGB CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 99,
-        "texto_extraido": "© Vision Mask: Time eo\nTimeweave ™\nMythic ~ ie\nLevel 1\n\n© ATK +50\ni) dtr +13\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 100,
-        "texto_extraido": "© Vision Mask: Time eo\nTimeweave ™\nMythic ~ ie\nLevel 1\n\n© ATK +50\nsro +3\nATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 101,
-        "texto_extraido": "© Vision Mask: Time a o\nTimeweave %\nWoy &\nMythic ~ Me\nLevel 1\n\n© ATK +50\nGB CRIT Rate +2%\n[Effect ACC +A%\ni DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 102,
-        "texto_extraido": "% Illusion Transistor: Time eo\nTimeweave © <<\nwo L)\nMythic &\nLevel 1 ~\n\nQ HP +500\nSPD +3\nEffect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 103,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ~\n\n& HP +500\nEy HP Bonus +3%\nArk +19\nBB Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 104,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nMythic &\nLevel 1 ™\n\nuP +500\nAk +29\nBB CRIT Rate +2%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 105,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nwo )\nMythic &\nLevel 1 ~\n\n& HP +500\ni +14\nBy HP Bonus +2%\nAk +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 106,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ™\n\nuP +500\nsro +3\nBB CRIT Rate +2%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 107,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nwo )\nMythic &\nLevel 1 ~\n\n} HP +500\nAk +19\nGS CRIT DMG +4%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 108,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ~\n\n2 HP +500\ni +14\nBy HP Bonus +2%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 109,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ~\n\n& HP +500\nEy HP Bonus +3%\nBB Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 110,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ™\n\nuP +500\nBB CRIT Rate +2%\nBB Effect RES +A%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 111,
+        "item_numero": 20,
         "texto_extraido": "© Fate Wristwheel: Time Bo\nNreweaye © @\nMythic Gi\nLevel 1\n\n@® DEF +40\nBB CRIT Rate +2%\nea uP +192\n(i) DEF Bonus +2%\n@ [ffect ACC +4%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 112,
-        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWO ‘i\nMythic ou\nLevel 1\n\nDEF +40\ni +222\n& [ffect ACC +A%\nBB CRIT Rate +2%\nNot equipped by Animuses."
+        "item_numero": 21,
+        "texto_extraido": "© Fate Wristwheel: Time & oo\nWr ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nGe CRIT Rate +2%\nEffect RES +A%\nMe AK +99\nNot equipped by Animuses."
     },
     {
-        "item_numero": 113,
+        "item_numero": 22,
         "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘s\nMythic a\nLevel 1\n\n@ OEF +40\nAk +19\nGB SPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 114,
-        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe ‘i\nMythic ou\nLevel 1\n\nDEF +40\ni +192\na Ak +99\nSPD +3\nEffect RES +4%\nNot equipped by Animuses."
+        "item_numero": 23,
+        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nGB SPD +3\nES uP +192\nMe AK +99\nNot equipped by Animuses."
     },
     {
-        "item_numero": 115,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave ©) <<\nWoy )\nMythic &\nLevel 1 ™\n\nuP +500\nEy HP Bonus +2%\nArk +19\nsro +3\nNot equipped by Animuses."
+        "item_numero": 24,
+        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWO ‘i\nMythic ou\nLevel 1\n\nDEF +40\ni +222\n& [ffect ACC +A%\nBB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 116,
-        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe ‘i\nMythic ou\nLevel 1\n\nDEF +40\nBB CRIT Rate +2%\na Ak +19\ni +192\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 117,
-        "texto_extraido": "% Illusion Transistor: Time fo\nMythic &\nLevel 1 ~\n\n& HP +500\nGB CRIT Rate +2%\nGB CRIT DMG +3%\nmi sro +3\nGy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 118,
+        "item_numero": 25,
         "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nGQ DEF Bonus +2%\nEffect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 119,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nWoW BY\nMythic SA\nLevel 1 alla.\nQ HP +500\nfe DEF +14\nBB CRIT Rate +2%\nBH Effect RES +4%\nGB CRIT DMG +4%\nNot equipped by Animuses."
+        "item_numero": 26,
+        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe ‘i\nMythic ou\nLevel 1\n\nDEF +40\nBB CRIT Rate +2%\na Ak +19\ni +192\nsro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 120,
-        "texto_extraido": "& Lightcone Core: Time Bo\nTimeweave ()\n> ON\nMythic 2),\n\n& HP +500\nGB CRIT Rate +2%\nAtk +99\nNot equipped by Animuses."
+        "item_numero": 27,
+        "texto_extraido": "(® Fate Wristwheel: Time Bo\nWe ‘i\nMythic ou\nLevel 1\n\nDEF +40\ni +192\na Ak +99\nSPD +3\nEffect RES +4%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 121,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\nMythic 2°, aM\n\n© ATK Bonus +15%\nGB CRIT DMG +4%\nGe DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 122,
-        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nGQ DEF Bonus +2%\ntr +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 123,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\nwor eN\nMythic SA\nHP Bonus +15%\nGB CRIT DMG +4%\nGe DEF +14\nae Ak +99\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 124,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nWoW BY\nMythic SA\nLevel 1 alla.\nQ HP +500\nGB HP Bonus +3%\nBB CRIT Rate +2%\nGB CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 125,
+        "item_numero": 28,
         "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nMe AK +19\nEffect RES +3%\nGB SPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 126,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\n¥¥ ae.\nMythic SA\nLevel 1 lll.\n© ATK Bonus +15%\nMB DEF Bonus +2%\nGB CRIT Rate +2%\nDEF +14\nNot equipped by Animuses."
+        "item_numero": 29,
+        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘),\nMythic oa\nLevel 1\n\n© DEF +40\nGQ DEF Bonus +2%\ntr +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 127,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni Z_~*\nMythic SA\n\nx CRIT DMG +18%\nMB DEF Bonus +3%\nBe Effect RES +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 128,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\n\nYY >\nMythic Or ,\n\nQ HP +500\nGB ATK Bonus +3%\nGe DEF +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 129,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\ni a.\nMythic SA\n% CRIT Rate +12%\n@ ir +192\nBe Effect RES +3%\nMB DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 130,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\n\nYY >\nMythic Or.\n\nQ HP +500\nGB ATK Bonus +2%\nGe DEF +13\n[Effect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 131,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni Z_~*\nMythic SA\nLevel 1 lll.\n@ DEF Bonus +15%\nBe Effect RES +A%\nsro +3\n[Effect ACC +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 132,
-        "texto_extraido": "(& Lightcone Core: Time ao\nTimeweave .\nOF _~%\nMythic SA\nLevel 1 ail.\n@ DEF Bonus +15%\nBH Effect RES +3%\nEffect ACC +3%\nGB CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 133,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni 7%\nMythic SA\nLevel 1 lll.\n© ATK Bonus +15%\n[Effect ACC +A%\nae Atk +19\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 134,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nKa gn.\nMythic SA\nLevel 1 alla.\n© ATK +50\nGB Effect ACC +A%\nDEF +14\nBH Effect RES +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 135,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ()\nYY >\nMythic 2),\n\n@ DEF Bonus +15%\ni DEF +14\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 136,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni a.\nMythic SA\n\n% CRIT Rate +12%\n@ ir +192\nGB ATK Bonus +3%\nMB DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 137,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\n\nYY > ’\nMythic Or\n\n© ATK +50\nsro +3\nMB DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 138,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nKa gn.\nMythic SA\nLevel 1 alla.\nQ HP +500\nGB HP Bonus +3%\nBB DEF Bonus +2%\nGB Effect ACC +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 139,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni Z_~*\nMythic SA\n%& CRIT Rate +12%\nGB ATK Bonus +3%\nGe uP +222\nae Ak +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 140,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave .\nKa gn.\nMythic SA\nLevel 1 alla.\n& Effect RES +18%\nGB Effect ACC +A%\nGB HP Bonus +2%\nGB CRIT DMG +3%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 141,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni Z_~*\nMythic SA\nLevel 1 lll.\n<> Effect ACC +18%\nGB ATK Bonus +2%\nMB DEF Bonus +3%\nae Ak +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 142,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\ni Z_~*\nMythic SA\nHP Bonus +15%\n@ ir +192\nGB CRIT Rate +2%\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 143,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\n\nYY > ’\nMythic Or.\n\nQ HP +500\nGB ATK Bonus +2%\nsro +3\nBe Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 144,
-        "texto_extraido": "( Lightcone Core: Time Boe\nTimeweave (@)\n\nY > '\nMythic Cr.\nLevel 1 _ oS\n© ATK +50\nGB HP Bonus +2%\n@ ir +222\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 145,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\ni Z_~*\nMythic SA\n%& CRIT Rate +12%\nGB CRIT DMG +3%\nGe DEF +13\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 146,
-        "texto_extraido": "& Lightcone Core: Time go\nTimeweave ©)\ni Z_~*\nMythic SA\nHP Bonus +15%\nae Ak +99\nMB DEF Bonus +3%\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 147,
-        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\noe. ®© PP\nLevel 1 —\n\n© DEF +40\nMe AK +19\ntr +222\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 148,
-        "texto_extraido": "f Courage Core: Bloodshed Bo\nBloodbath © <s\n\n©o +\nMythic mo\nLevel 1 re\n(DEF Bonus +15%\n(Effect RES +3%\nEffect ACC +3,\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 149,
-        "texto_extraido": "2 Toughness Transistor: Bloodshed t\nBloodbath © 2\nwv)\n\nMythic\n\nLevel 1 =\n\né HP +500\nGB SPD +3\na Ark +29\nDEF +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 150,
-        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\nBloodbath ©\n\nwv)\n\nMythic :\nLevel 1 >\n\n@ OEF +40\nDEF Bonus +3%\nBP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 151,
-        "texto_extraido": "f Courage Core: Bloodshed Be\nBloodbath © <s\n\nO@ +\nMythic oo\nLevel 1 re\n\n<)> Effect ACC +18%\nDEF +14\n(RB Effect RES +4%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 152,
-        "texto_extraido": "© Chase Mask: Pursuit Bo\nMomentum ©) Ee.\nMythic rn\nLevel 1 a\n\n© ATK +50\n@ HP +192\nGB ATK Bonus +3%\n@& [ffect Acc +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 153,
-        "texto_extraido": "(&\\ Raging Core: Fury |\nfury © Ce\n\nMythic =.\n\nLevel 1\n\n& Effect RES +18%\nsro +3\nMB [ffect ACC +3%\nBB HP Bonus +3%\nBB DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 154,
-        "texto_extraido": "Resentful Transistor: Fury Bo\nFury © ya\n\nte te . a)\nMythic B/\nLevel 1 “F\n\n& HP +500\nBB Effect RES +A%\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 155,
-        "texto_extraido": "© Piercing Mask: Harvest zo\nHarvest ©\n\na 4\nMythic -\nLevel 1 ye\n© ATK +50\nGS CRIT OMG +4%\ni dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 156,
-        "texto_extraido": "Resentful Transistor: Fury Bo\nFury © oy\n\nte te . :®\nMythic B/\nLevel 1 “F\n\n& HP +500\nGy HP Bonus +2%\nDEF +13\nBe Ak +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 157,
-        "texto_extraido": "(\\ Raging Core: Fury Bo\nFe Fe \\' ~—_\nMythic =\nLevel 1\n\nQ HP +500\nGB CRIT Rate +2%\nGB HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 158,
-        "texto_extraido": "© Agitation Wristwheel:Fuy 8 @\na Ce\nte te ;\nLevel 1 —=\n\n@ DEF +40\nBe Ak +19\nBe sro +3\n(DEF Bonus +3%\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 159,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © .\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\n@ HP +192\nGS CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 160,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © .\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\n@ HP +222\nBe sro +3\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 161,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © i\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\nGe DEF +13\nEffect ACC +3%\nGB CRIT DMG +3%\nGe uP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 162,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest ©\n\n“ 4\nMythic -\nLevel 1 ye\n© AIK +50\nGB CRIT Rate +2%\n|= | CRIT DMG +4%\nGB AIK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 163,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © .\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\nBe sro +3\nGS CRIT DMG +4%\nGB AIK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 164,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © .\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\nGS CRIT DMG +4%\nDEF +13\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 165,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest ©\n\n“ 4\nMythic -\nLevel 1 ye\n© AIK +50\n@& [ffect Acc +3%\nGB sPo +3\nGB AIK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 166,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest © .\n\nMythic -\n\nLevel 1 ye\n\n© ATK +50\n@& [ffect Acc +3%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 167,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\n& HP +500\nP| ATK +29\n@ DEF +13\nGe sPp +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 168,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nMythic Coy\n\nLevel 1 ~\n\n} HP +500\nBB Effect RES +4%\nBB CRIT Rate +2%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 169,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nco co co o\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\nSPD +3\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 170,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\n& HP +500\nP| ATK +19\n| CRIT DMG +3%\nGe sPp +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 171,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\nEy HP Bonus +3%\nEffect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 172,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nco co co\nMythic Coy\n\nLevel 1 ~\n\n} HP +500\nEy HP Bonus +3%\nBB CRIT Rate +2%\ni +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 173,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nco co co o\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\ni DEF +14\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 174,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest @& @\nHarvest © a,\nMythic a\n\nLevel 1 ~\n\n& HP +500\nEffect RES +4%\ni DEF +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 175,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\nSPD +3\nEy HP Bonus +2%\nBe Ark +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 176,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nMythic Coy\n\nLevel 1 ~\n\n} HP +500\nGS CRIT OMG +3%\nBB CRIT Rate +2%\nEy HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 177,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\n& HP +500\nBB CRIT Rate +2%\n| ATK +19\nGe sPp +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 178,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest @& @\nHarvest © a,\nco con\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\nMe AK +29\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 179,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nMythic Coy\n\nLevel 1 ~\n\n& HP +500\nGa sro +3\n= | CRIT DMG +4%\nBB Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 180,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\nQ HP +500\nSPD +3\na Ak +29\nEy HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 181,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest @& @\nHarvest © a,\nco con\nMythic Co\n\nLevel 1 ~\n\n& HP +500\nGp dtr +13\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 182,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n@ DEF +A0\n© [ffect Acc +4%\n| ATK +29\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 183,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nAk +22\nBB Effect RES +A%\ney tp +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 184,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nMythic Co\n\nLevel 1 ~\n\n& HP +500\nGe sPp +3\n| CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 185,
-        "texto_extraido": "© Breaking Wristwheel: Harvest B® @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nGB CRIT Rate +2%\nBe sro +3\nBe Ak +19\nGy uP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 186,
+        "item_numero": 30,
         "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nsro +3\nBB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 187,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 -\n\n® DEF +40\n(i) DEF Bonus +2%\nArk +99\nBB Effect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 188,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nMythic Coy\n\nLevel 1 ~\n\n& HP +500\n= | CRIT DMG +4%\nBB Effect RES +A%\ni +14\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 189,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nGB sro +3\n(iD DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 190,
+        "item_numero": 31,
         "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic 7\nLevel 1 ‘\\\n\nDEF +40\nGe sPp +3\n| ATK +29\nNot equipped by Animuses."
     },
     {
-        "item_numero": 191,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 c\\\n\n® DEF +40\nBB Effect RES +3%\n@ [ffect ACC +A%\n| ATK +29\nNot equipped by Animuses."
+        "item_numero": 32,
+        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\noe. ®© PP\nLevel 1 —\n\n© DEF +40\nMe AK +19\ntr +222\nGB SPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 192,
-        "texto_extraido": "( Piercing Core: Harvest Bo\nHarvest © |\nMythic BS\nLevel 1\n\n<> Effect ACC +18%\nSPD +3\na Ak +19\nNot equipped by Animuses."
+        "item_numero": 33,
+        "texto_extraido": "© Agitation Wristwheel:Fuy 8 @\na Ce\nte te ;\nLevel 1 —=\n\n@ DEF +40\nBe Ak +19\nBe sro +3\n(DEF Bonus +3%\nGB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 193,
-        "texto_extraido": "(\\ Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\n& HP +500\n(DEF Bonus +3%\nDEF +13\nBe sro +3\nNot equipped by Animuses."
+        "item_numero": 34,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic 7\nLevel 1 ‘\\\n\n@ DEF +A0\nEffect RES +4%\n@ tr +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 194,
-        "texto_extraido": "(& Piercing Core: Harvest eo\nHarvest © |\nMythic BS\nLevel 1\n\n2 HP Bonus +15%\ni +192\nEffect RES +3%\nNot equipped by Animuses."
+        "item_numero": 35,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n@ DEF +A0\n© [ffect Acc +4%\n| ATK +29\n@ tr +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 195,
-        "texto_extraido": "( Piercing Core: Harvest eo\nHarvest © 4\nMythic SS\nLevel 1\n\n& Effect RES +18%\n@ ir +222\n(DEF Bonus +2%\n@& [ffect Acc +3%\nNot equipped by Animuses."
+        "item_numero": 36,
+        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\nBloodbath ©\n\nwv)\n\nMythic :\nLevel 1 >\n\n@ OEF +40\nDEF Bonus +3%\nBP +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 196,
-        "texto_extraido": "( Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\n%* CRIT Rate +12%\nGB ATK Bonus +2%\nBB Effect RES +A%\nAk +19\nNot equipped by Animuses."
+        "item_numero": 37,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nAk +22\nBB Effect RES +A%\ney tp +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 197,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 74\nMythic SS\nLevel 1\n\n@ DEF Bonus +15%\nBB CRIT Rate +2%\n@ tr +222\nNot equipped by Animuses."
+        "item_numero": 38,
+        "texto_extraido": "© Breaking Wristwheel: Harvest B® @\nHarvest © ,\nMythic (A\nLevel 1 c\\\n\n® DEF +40\nBB Effect RES +A%\n(DEF Bonus +3%\nep aqk +22\nGB sPo #3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 198,
-        "texto_extraido": "(\\ Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\n% CRIT Rate +12%\nGS CRIT DMG +4%\nBH Effect RES +3%\n@& [ffect Acc +3%\nNot equipped by Animuses."
+        "item_numero": 39,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 -\n\n® DEF +40\n(i) DEF Bonus +2%\nArk +99\nBB Effect RES +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 199,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 74\nMythic SS\nLevel 1\n\n@ DEF Bonus +15%\ney tp +192\nGS CRIT DMG +3%\nNot equipped by Animuses."
+        "item_numero": 40,
+        "texto_extraido": "© Breaking Wristwheel: Harvest B® @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nGB CRIT Rate +2%\nBe sro +3\nBe Ak +19\nGy uP +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 200,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 4\nMythic SS\nLevel 1\n\n%* CRIT Rate +12%\n© [ffect Acc +3%\nBy HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 201,
-        "texto_extraido": "( Piercing Core: Harvest eo\nHarvest © 4\nMythic SS\nLevel 1\n\n& HP +500\nBe sro +3\n[Effect ACC +3%\n(DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 202,
-        "texto_extraido": "( Piercing Core: Harvest eo\nHarvest © 4\nMythic SS\nLevel 1\n\nQ ATK +50\nGS CRIT DMG +3%\nGB CRIT Rate +2%\n(ATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 203,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 74\nMythic SS\nLevel 1\n\n© ATK Bonus +15%\n(i) DEF Bonus +3%\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 204,
-        "texto_extraido": "(& Piercing Core: Harvest eo\nHarvest © |\nMythic BS\nLevel 1\n\nDEF +40\nBe Ark +19\nGQ DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 205,
-        "texto_extraido": "(& Piercing Core: Harvest eo\nHarvest © |\nMythic BS\nLevel 1\n\n& Effect RES +18%\nig +192\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 206,
-        "texto_extraido": "( Piercing Core: Harvest Bo\nHarvest © |\nMythic BS\nLevel 1\n\n€ ATK Bonus +15%\ni) dtr +13\nGQ DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 207,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 4\nMythic SS\nLevel 1\n\n& Effect RES +18%\n(i) DEF Bonus +2%\nATK Bonus +3%\nAk +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 208,
-        "texto_extraido": "( Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\nx CRIT DMG +18%\n© [ffect Acc +3%\nArk +29\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 209,
-        "texto_extraido": "(\\ Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\n& Effect RES +18%\nBe sro +3\n(DEF Bonus +2%\nGy uP +222\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 210,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 4\nMythic SS\nLevel 1\n\n© ATK Bonus +15%\ni +14\n(iD DEF Bonus +3%\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 211,
-        "texto_extraido": "( Piercing Core: Harvest Bo\nHarvest © 4\nMythic SS\nLevel 1\n\n<> Effect ACC +18%\ni +14\nBB CRIT Rate +2%\nAk +29\nBB Effect RES +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 212,
-        "texto_extraido": "© Rush Mask: Strive Bo\nStrive © , \\\nip\nMythic Vey\nLevel 1\n© ATK +50\nfe DEF +14\nBB ATK Bonus +2%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 213,
-        "texto_extraido": "© Rush Mask: Strive Bo\nStrive © , \\\nvid\nMythic Ve Oy\nLevel 1\n© ATK +50\nGe DEF +13\nGB ATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 214,
-        "texto_extraido": "© Rush Mask: Strive Bo\nStrive © , \\\nip\nMythic Oy\nLevel 1\n© ATK +50\nGB CRIT DMG +4%\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 215,
-        "texto_extraido": "(&\\ Ascension Core: Strive Bo\nStrive ©\n\nLevel 1 ¢\n\n& HP +500\nBe Ak +19\nGB ATK Bonus +2%\nGB CRIT Rate +2%\n(DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 216,
-        "texto_extraido": "© Rush Mask: Strive Bo\nStrive © , \\\nip\nMythic Vey\nLevel 1\n© ATK +50\nBB ATK Bonus +2%\nBB CRIT Rate +2%\n@ ir +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 217,
-        "texto_extraido": "Q Catalysis Transistor: Strive 8 @\nStrive © io\nS$ Ss & ye\n\n7\nMythic oe\nLevel 1 &\n} HP +500\nsro +3\nArk +29\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 218,
-        "texto_extraido": "(& Ascension Core: Strive Bo\nStrive © 4\n\nee ©\nMythic\n\nLevel 1 ¢\n\n& Effect RES +18%\nBe Ark +29\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 219,
-        "texto_extraido": "f Revival Core: Cure f o\nCure ©\n\nada\n\nMythic ;\nLevel 1\n\n<> Effect ACC +18%\nArk +22\ni CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 220,
-        "texto_extraido": "(& Ascension Core: Strive Bo\nStrive © 4\n\nee 0\nMythic\n\nLevel 1 ¢\n\n© DEF Bonus +15%\nGy CRIT DMG +4%\na Ak +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 221,
-        "texto_extraido": "(&\\ Ascension Core: Strive Bo\nStrive ©\n\nLevel 1 4\n\n& HP +500\n@& [ffect Acc +3%\nGS CRIT DMG +3%\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 222,
+        "item_numero": 41,
         "texto_extraido": "(® Breakthrough Wristwheel: Strive ty @\nStrive © ra.\nSe 2)\nMythic Lf\nLevel 1 ——\n\n@® DEF +40\nBe Effect RES +A%\nae Atk +29\nsro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 223,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBA ,\nMythic \\ °\n\nLevel 1\n\n© AIK +50\nGB SPD +3\nMB ATK Bonus +3%\nNot equipped by Animuses."
+        "item_numero": 42,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 ‘\\\n\n® DEF +40\nGB sro +3\n(iD DEF Bonus +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 224,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fl\nBA\nMythic \\ .\n\nLevel 1\n\n© ATK +50\n [ffect Acc +3%\n@ tr +222\nSPD +3\nNot equipped by Animuses."
+        "item_numero": 43,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nMythic (A\nLevel 1 c\\\n\n® DEF +40\nBB Effect RES +3%\n@ [ffect ACC +A%\n| ATK +29\nNot equipped by Animuses."
     },
     {
-        "item_numero": 225,
-        "texto_extraido": "© Immortality Mask: Cure Bo\nCure ©\n\na¢ ad,\nMythic > ,\nLevel 1\n\n© ATK +50\nBB CRIT Rate +2%\nGS CRIT DMG +4%\n© [ffect Acc +3%\nNot equipped by Animuses."
+        "item_numero": 44,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAAA y\nMythic\nLevel 1\n\nDEF +40\ni +222\n(RB Effect RES +3%\nFR CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 226,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fl\nAA\nMythic \\ .\n\nLevel 1\n\n© AIK +50\nBB CRIT Rate +2%\nGB ATK Bonus +2%\nGB sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 227,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nMythic bs\n\nLevel 1\n\n© ATK +50\n [ffect Acc +3%\nGe CRIT Rate +2%\n@ HP +192\nGe CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 228,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBA\nMythic \\ °\n\nLevel 1\n\n© AIK +50\nGp dtr +13\nGe CRIT Rate +2%\niP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 229,
-        "texto_extraido": "f Revival Core: Cure to\nCure ©\n\nada\n\nMythic :\nLevel 1\n\n& HP +500\n(Effect RES +4%\nGy CRIT DMG +4%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 230,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBAB\nMythic \\ °\n\nLevel 1\n\n© AIK +50\nGy CRIT DMG +3%\ni DEF +14\niP +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 231,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nAA\nMythic \\ °\n\nLevel 1\n\n© ATK +50\ni dtr +14\nMB ATK Bonus +2%\niP +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 232,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fl\nBA ,\nMythic \\ .\n\nLevel 1\n\n© ATK +50\n [ffect Acc +4%\nGe CRIT DMG +3%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 233,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble @ / fr\nAA\nMythic \\ °\n\nLevel 1\n\n© AIK +50\ni DEF +13\nMB ATK Bonus +3%\n@ [ffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 234,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nAA\nMythic \\ °\n\nLevel 1\n\n© AIK +50\nMB ATK Bonus +3%\n@ [ffect ACC +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 235,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nMythic ll\n\nLevel 1\n\n© ATK +50\ni +14\nGS CRIT DMG +4%\nsro +3\n@ [ffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 236,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBAR bs\nMythic j/\nLevel 1 ~\n\n& uP +500\ni) dtr +13\nEffect RES +3%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 237,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nAR ~\nMythic j/\nLevel 1 ~\"\n\n& HP +500\nMe AK +19\nEffect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 238,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBR bs\nMythic j/\nLevel 1 ~\n\n& uP +500\nEy HP Bonus +2%\nGe CRIT DMG +4%\ni DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 239,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nMythic j/\nLevel 1 ~\"\n\n& uP +500\ni DEF +14\nEffect RES +A%\nBe Ark +19\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 240,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBR bs\nMythic j/\nLevel 1 ~\n\n& uP +500\nEy HP Bonus +3%\na Ak +29\ni DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 241,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBA ‘~\nMythic j/\nLevel 1 ~\"\n\n& HP +500\nGB SPD +3\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 242,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBR bs\nMythic j/\nLevel 1 ~\n\n& uP +500\ni DEF +14\nEffect RES +A%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 243,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni Ark +22\n(RB Effect RES +3%\nFR CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 244,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBA ‘~\nMythic j/\nLevel 1 ~\"\n\n& HP +500\nGB SPD +3\nMe Ark +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 245,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © —\nBA ‘~\nMythic j/\nLevel 1 ~\"\n\n& HP +500\nMe AK +29\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 246,
+        "item_numero": 45,
         "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAAAB \\\nMythic\nLevel 1\n\nDEF +40\nEffect ACC +4%\nae +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 247,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni +192\nSS} Effect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 248,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAAA y\nMythic\nLevel 1\n\nDEF +40\nDEF Bonus +2%\nig +222\ni Ark +22\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 249,
+        "item_numero": 46,
         "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\n(RB Effect RES +3%\nDEF Bonus +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 250,
-        "texto_extraido": "@ Devour Wristwheel: Bramble @ @\nBramble @)\n\nBA )\nMythic\nLevel 1\n\n© DEF +40\nGe CRIT Rate +2%\nEffect ACC +4%\n(Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 47,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAAA y\nMythic\nLevel 1\n\nDEF +40\nDEF Bonus +2%\nig +222\ni Ark +22\nNot equipped by Animuses."
     },
     {
-        "item_numero": 251,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni Ark +19\ntp +222\n(RB Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 48,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni +192\nSS} Effect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 252,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBAA\n\nMythic P|\nLevel 1\n\n@ OEF +40\nGe CRIT Rate +2%\nGD ATK Bonus +2%\n(Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 253,
+        "item_numero": 49,
         "texto_extraido": "@ Devour Wristwheel: Bramble @ @\nBramble @)\n\nBA )\nMythic\nLevel 1\n\nDEF +40\n(Effect RES +4%\nEffect ACC +3%\nBi +192\nNot equipped by Animuses."
     },
     {
-        "item_numero": 254,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble @)\n\nBAA\n\nMythic J\nLevel 1\n\n© ATK +50\nDEF +14\nEa HP +192\nNot equipped by Animuses."
+        "item_numero": 50,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni Ark +22\n(RB Effect RES +3%\nFR CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 255,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBAA\n\nMythic P|\nLevel 1\n\n© AIK +50\nEffect RES +4%\nBy HP Bonus +2%\nGQ DEF Bonus +2%\nGy CRIT DMG +4%\nNot equipped by Animuses."
+        "item_numero": 51,
+        "texto_extraido": "@ Devour Wristwheel: Bramble @ @\nBramble @)\n\nBA )\nMythic\nLevel 1\n\n© DEF +40\nGe CRIT Rate +2%\nEffect ACC +4%\n(Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 256,
-        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni +222\nFH CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 257,
+        "item_numero": 52,
         "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni Ark +22\ntp +192\nDEF Bonus +24\nNot equipped by Animuses."
     },
     {
-        "item_numero": 258,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBA\n\nMythic P|\nLevel 1\n\n@ OEF +40\nAk +29\nGD ATK Bonus +2%\nEffect ACC +3%\nNot equipped by Animuses."
+        "item_numero": 53,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni Ark +19\ntp +222\n(RB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 259,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBAA\n\nMythic P|\nLevel 1\n\n© ATK +50\n(Effect RES +4%\nGD ATK Bonus +3%\nGy CRIT DMG +4%\nNot equipped by Animuses."
+        "item_numero": 54,
+        "texto_extraido": "(® Devour Wristwheel: Bramble @ @\nBramble @)\n\nAA y\nMythic\nLevel 1\n\nDEF +40\ni +222\nFH CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 260,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nMythic P|\nLevel 1\n\n© AIK +50\n| ig +192\nGy CRIT DMG +3%\nMB ATK Bonus +2%\nGQ DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 261,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble @)\n\nBA\n\nMythic J\nLevel 1\n\n© ATK Bonus +15%\nfy CRIT DMG +4%\nDEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 262,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBA\n\nMythic P|\nLevel 1\n\n@ OEF +40\nGB SPD +3\nGD ATK Bonus +3%\nDEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 263,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBAB\n\nMythic P|\nLevel 1\n\n& Effect RES +18%\nGQ DEF Bonus +2%\ni DEF +14\nGe CRIT Rate +2%\nGy CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 264,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBA\n\nMythic P|\nLevel 1\n\n%* CRIT Rate +12%\nGy CRIT DMG +3%\nDEF +14\nEffect ACC +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 265,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nMythic P|\nLevel 1\n\nQ HP +500\nGe CRIT Rate +2%\nGQ DEF Bonus +3%\ni dtr +14\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 266,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\n\nBA\n\nMythic P|\nLevel 1\n\n© ATK +50\nEy HP Bonus +2%\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 267,
-        "texto_extraido": "f Rebound Core: Bramble Bo\nBramble @)\n\nAA\n\nMythic |\nLevel 1\n\n& Effect RES +18%\nArk +19\ni CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 268,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble @)\nBA\nMythic P|\nLevel 1\n\n(DEF Bonus +15%\nGe CRIT Rate +2%\nGD ATK Bonus +3%\nEy HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 269,
+        "item_numero": 55,
         "texto_extraido": "© Fierce Wristwheel: Battlewill  @\nBattlewill ©\n\nMythic b\nLevel 1 ~ GY\nDEF +40\nBe Ark +19\nEffect RES +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 270,
-        "texto_extraido": "%  Valorous Transistor: Battlewill  @\nBattlewill © 2S\nGE »\nMythic l/\n\nLevel 1 a\n\nQ HP +500\nEy HP Bonus +3%\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 271,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble @)\n\nBA\n\nMythic J\nLevel 1\n\nHP Bonus +15%\n(RB Effect RES +4%\nfy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 272,
-        "texto_extraido": "( Warlust Core: Battlewill Bo\nBattlewill © .\nMythic 4)\nLevel 1 1S\n\n© ATK +50\n@& [ffect Acc +A%\n(DEF Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 273,
-        "texto_extraido": "(4 Warlust Core: Battlewill Bo\nBattlewill © .\nLevel 1 1S\n\n<> Effect ACC +18%\nBB Effect RES +4%\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 274,
+        "item_numero": 56,
         "texto_extraido": "© Fierce Wristwheel: Battlewill & @\nBattlewill ©\n\nGE wo);\nMythic ZZ\nLevel 1 Xf\n@® DEF +40\nsro +3\n@ [ffect ACC +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 275,
-        "texto_extraido": "Q) Supercomputing Transistor: Bulwark EY\nBulwark ©\nMythic\n\nLevel 1 coal\n\n& uP +500\nGy CRIT DMG +3%\nGe CRIT Rate +24\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 276,
-        "texto_extraido": "© Filtering Mask: Bulwark a o\nBulwark © |\nMythic ow\nLevel 1\n\n© ATK +50\nme sro +3\n@ ir +222\nGB CRIT Rate +2%\nEffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 277,
-        "texto_extraido": "2) Supercomputing Transistor: Bulwark Ey\nBulwark ©\nMythic a\nLevel 1 asl\n\nuP +500\nAk +29\nBy HP Bonus +3%\nGS CRIT OMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 278,
-        "texto_extraido": "fs Fusion Core: Bulwark ian\nBulwark @)\nMythic »\nLevel 1\n\n& HP +500\nGiB CRIT Rate +2%\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 279,
-        "texto_extraido": "Q) Supercomputing Transistor: Bulwark EY\nBulwark ©\nMythic\n\nLevel 1 coal\n\n& uP +500\ni) dtr +13\nEffect RES +34,\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 280,
-        "texto_extraido": "f Fusion Core: Bulwark inn\nBulwark @)\nMythic 1\nLevel 1\n\n(DEF Bonus +15%\nEy HP Bonus +3%\nFH CRIT Rate +2%\nDEF +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 281,
-        "texto_extraido": "f Fusion Core: Bulwark inn\nBulwark @)\n\nMythic 1\nLevel 1\n\n© ATK +50\nSS Effect ACC +4%\nATK Bonus +2%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 282,
-        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\nz  Q\nMythic 4\nLevel 1 =\n\nDEF +A0\n@ tp +222\nGB CRIT Rate +2%\nGB sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 283,
-        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\n=z\nMythic g\nLevel 1 =\n\n® OE +40\nBe sro +3\nBH Effect RES +A%\nGy uP +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 284,
-        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\n=z\nMythic g\nLevel 1 =\n\n® OE +40\nBB Effect RES +A%\n(DEF Bonus +2%\nBe Ak +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 285,
-        "texto_extraido": "fs Fusion Core: Bulwark ian\nBulwark @)\n\nMythic »\n\nLevel 1\n(DEF Bonus +15%\nHP Bonus +3%\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 286,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © :\n\nSHS -_\nMythic ns\nLevel 1 .\n\n© ATK +50\nGS CRIT OMG +4%\nATK Bonus +3%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 287,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © :\n\nSHS -_\nMythic ve“\nLevel 1 7\n\n© ATK +50\nBB CRIT Rate +2%\ni DEF +14\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 288,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nSs -_\nMythic ve“\nLevel 1 ,\n\n© ATK +50\nSPD +3\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 289,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © :\n\nMythic ve“\nLevel 1 .\n\n© ATK +50\nBB CRIT Rate +2%\nATK Bonus +2%\nGS CRIT OMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 290,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nMythic ves!\nLevel 1 °\n\n© ATK +50\nBB CRIT Rate +2%\n@ Hr +222\nGS CRIT OMG +3%\ni dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 291,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nSs -_\nMythic ve“\nLevel 1 ,\n\n© ATK +50\nGB ATK Bonus +2%\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 292,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nSSS -_\nMythic ve“\nLevel 1 ,\n\n© ATK +50\n [ffect Acc +3%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 293,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nSs -_\nMythic ve“\nLevel 1 ,\n\n© ATK +50\n [ffect Acc +4%\nGe CRIT DMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 294,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © :\n\n33 -_\nMythic ve“\nLevel 1 .\n\n© ATK +50\nGB ATK Bonus +2%\ni dtr +13\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 295,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nMythic ves!\nLevel 1 °\n\n© ATK +50\nGB ATK Bonus +2%\ni DEF +14\nsro +3\n@ Hr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 296,
+        "item_numero": 57,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nme @\nMythic N=\n\nLevel 1\n\nDEF +40\nBe Ark +19\nGQ DEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 297,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nSs -_\nMythic ve“\nLevel 1 ,\n\n© ATK +50\nGB ATK Bonus +3%\nsro +3\nNot equipped by Animuses."
+        "item_numero": 58,
+        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\nMythic 4\nLevel 1 =\n\n® DEF +40\nAk +19\n@ [ffect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 298,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\nMythic as\nLevel 1 :\n\n© ATK +50\nEffect ACC +4%\nGB SPD +3\nGD ATK Bonus +3%\n~) Kazuyo the Reverie Equipped Current"
+        "item_numero": 59,
+        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\n=z\nMythic g\nLevel 1 =\n\n® OE +40\nBe sro +3\nBH Effect RES +A%\nGy uP +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 299,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © :\n\nMythic ve“\nLevel 1 .\n\n© ATK +50\nGS CRIT OMG +4%\nATK Bonus +2%\nsro +3\nNot equipped by Animuses."
+        "item_numero": 60,
+        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\n=z\nMythic g\nLevel 1 =\n\n® OE +40\nBB Effect RES +A%\n(DEF Bonus +2%\nBe Ak +19\nNot equipped by Animuses."
     },
     {
-        "item_numero": 300,
-        "texto_extraido": "Q Wind Transistor: Swiftush  @ @\nSwiftrush © AS\nSSS &,\nMythic V4\nLevel 1\n\n& uP +500\nEy HP Bonus +3%\na Ak +19\nNot equipped by Animuses."
+        "item_numero": 61,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\nsro +3\n@ [ffect ACC +3%\nAk +19\nea uP +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 301,
-        "texto_extraido": "Q Wind Transistor: Swiftush 8 @\nSwiftrush © AS\nSSS &,\nMythic V4 ‘\nLevel 1\n\n& HP +500\nBB Effect RES +3%\ni DEF +14\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 302,
-        "texto_extraido": "Q Wind Transistor: Swiftush 8 @\nSwiftrush © AS\nSSS &,\nMythic V4 ‘\nLevel 1\n\nuP +500\nEy HP Bonus +2%\nBB Effect RES +3%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 303,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\n© [ffect Acc +4%\nBB Effect RES +3%\n@ tr +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 304,
-        "texto_extraido": "Q Wind Transistor: Swiftush  @ @\nSwiftrush © AS\n+s &,\nMythic V4\nLevel 1\n\n& uP +500\nBB CRIT Rate +2%\nEffect RES +3%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 305,
+        "item_numero": 62,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n$s C2\nMythic N=\n\nLevel 1\n\nDEF +40\nBB CRIT Rate +2%\nGQ DEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 306,
+        "item_numero": 63,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\n© [ffect Acc +4%\nBB Effect RES +3%\n@ tr +192\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 64,
+        "texto_extraido": "(@® Harmonic Wristwheel: Bulwark & @\nBulwark ©\n\nz  Q\nMythic 4\nLevel 1 =\n\nDEF +A0\n@ tp +222\nGB CRIT Rate +2%\nGB sro +3\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 65,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic \\.\n\nLevel 1\n\n@® DEF +40\n(i) DEF Bonus +3%\n@ tr +222\nsro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 307,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nsa OC\nMythic N=\n\nLevel 1\n\nDEF +40\nBe Ark +19\nEffect RES +A%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 308,
+        "item_numero": 66,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\nBB Effect RES +4%\n@ [ffect ACC +A%\nsro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 309,
-        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\nBB Effect RES +3%\nBB CRIT Rate +2%\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 310,
+        "item_numero": 67,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n$s C2\nMythic N=\n\nLevel 1\n\nDEF +40\nDEF Bonus +2%\nEffect RES +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 311,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\nSSS\nMythic =\n\nLevel 1 ~\n\n% CRIT Rate +12%\nig +192\na Ak +19\nEffect RES +4%\nNot equipped by Animuses."
+        "item_numero": 68,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nsa OC\nMythic N=\n\nLevel 1\n\nDEF +40\nBe Ark +19\nEffect RES +A%\nBB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 312,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\n\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\nHP Bonus +15%\n(i) DEF Bonus +3%\ni DEF +14\nGS CRIT OMG +4%\nNot equipped by Animuses."
+        "item_numero": 69,
+        "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n‘a oS,\nMythic Ne\n\nLevel 1\n\n@® DEF +40\nBB Effect RES +3%\nBB CRIT Rate +2%\n@ tr +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 313,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush B® @\nial (@) he\nMythic >\n\nLevel 1 ~\n\n® DEF +40\nGS CRIT DMG +3%\nGy HP Bonus +3%\nBe Ak +19\n[Effect ACC +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 314,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\n\n} HP +500\nEy HP Bonus +2%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 315,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\n2 HP Bonus +15%\ni +192\nEffect RES +A%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 316,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\n& Effect RES +18%\nGB ATK Bonus +2%\ni) dtr +13\nBe Ark +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 317,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\n2 HP Bonus +15%\nGy CRIT DMG +4%\na Ak +29\ni DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 318,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\nSwiftrush ©\n\n$s a\nMythic >\n\nLevel 1 ~\n\n@ DEF Bonus +15%\ni dtr +14\nMe Ark +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 319,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\n\n%& CRIT Rate +12%\ney tp +192\nsro +3\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 320,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\n€ ATK Bonus +15%\n [ffect Acc +3%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 321,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\n© ATK +50\nGB ATK Bonus +2%\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 322,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\nSwiftrush ©\n\n$s a\nMythic >\n\nLevel 1 ~\n\n& HP +500\nMe AK +29\nEffect RES +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 323,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\n\n} HP +500\n© [ffect Acc +3%\nBy HP Bonus +3%\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 324,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\n\n%& CRIT Rate +12%\nEy HP Bonus +2%\nBB Effect RES +3%\n@ tr +192\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 325,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 fe\nMythic =\n\nLevel 1 ~\n\n} HP +500\nBB Effect RES +4%\nBB CRIT Rate +2%\nGS CRIT OMG +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 326,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\nSwiftrush ©\n\n$s a\nMythic >\n\nLevel 1 ~\n\n2 HP Bonus +15%\nMe AK +19\ni DEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 327,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\nQ HP +500\nBe Ark +22\nGe CRIT Rate +2%\nGB ATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 328,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nMythic =\n\nLevel 1 ~\n\nx CRIT OMG +18%\ni DEF +14\nEy HP Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 329,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable @) 4\nGOD a!\nMythic\n\nLevel 1 =~\n\n© ATK +50\ni +222\nGB SPD +3\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 330,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable @) 4\ncho a!\nMythic\n\nLevel 1 =\n\n© ATK +50\nHD ATK Bonus +2%\nSS} Effect ACC +3%\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 331,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\n\nMythic\n\nLevel 1 =\n\n© ATK +50\nEffect ACC +3,\nDEF +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 332,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable @) 4\ncho a!\nMythic\n\nLevel 1 =\n\n© ATK +50\nDEF +14\nFH CRIT Rate +2%\nSS Effect ACC +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 333,
-        "texto_extraido": "© Ironclad Mask: Unbreakable 8 @\nUnbreakable © _4\nURC) a\nMythic '\n\nLevel 1 =~\n\n© ATK +50\nEffect ACC +3%\nGy CRIT DMG +3%\nGD ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 334,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\nMythic\n\nLevel 1 =\n\n© ATK +50\nale +192\nATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 335,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable @) 4\nMythic\n\nLevel 1 =\n\n© ATK +50\nFR CRIT Rate +2%\ntp +222\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 336,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable @ 4\nORO, a!\nMythic\n\nLevel 1 =\n\n© ATK +50\nFR CRIT Rate +2%\nGB SPD +3\nHD ATK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 337,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nUAC) _\n\nMythic by\n\nLevel 1 NG\n\n& HP +500\nGy CRIT DMG +4%\nMe Ark +19\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 338,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\nMythic\n\nLevel 1 =\n\n© ATK +50\nATK Bonus +2%\nae +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 339,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nChore) >\n\nMythic by\n\nLevel 1 NG\n\n& HP +500\nGe CRIT Rate +2%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 340,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nVOD >\n\nMythic by\n\nLevel 1 LQ\n\n& HP +500\nBy HP Bonus +2%\nMe Ark +22\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 341,
-        "texto_extraido": "© Ironclad Mask: Unbreakable 8 @\nUnbreakable © _4\nURC) a\nMythic '\n\nLevel 1 =~\n\n© ATK +50\nGy CRIT DMG +4%\nDEF +13\nGB SPD +3\nEffect ACC +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 342,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nLUAU) 2\n\nMythic by\n\nLevel 1 LQ\n\n& HP +500\nEffect RES +4%\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 343,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nUAC) _\n\nMythic by\n\nLevel 1 NG\n\n& HP +500\nMe AK +29\nGy CRIT DMG +4%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 344,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nUAC) _\nMythic by\n\nLevel 1 NG\n\n& HP +500\nGp dtr +13\nGB SPD +3\nMe AK +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 345,
-        "texto_extraido": "% Immovable Transistor: Unbreakable HY\nUnbreakable © © y\noO .\n\nMythic by\n\nLevel 1 NG\n\n& HP +500\nEy HP Bonus +2%\nsro +3\nBe Ark +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 346,
-        "texto_extraido": "W Bedrock Wristwheel: Unbreakable f\nUnbreakable ©\n\nORC) }\nMythic\n\nLevel 1\n\nDEF +40\nGB SPD +3\nDEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 347,
+        "item_numero": 70,
         "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nCACEU) j\nMythic\n\nLevel 1\n\n@ DEF +40\nSS Effect ACC +3%\ni Ark +19\n(RB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 348,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nLUAU) 2\n\nMythic by\n\nLevel 1 NG\n\n& HP +500\nBy HP Bonus +2%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 349,
+        "item_numero": 71,
         "texto_extraido": "(® Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORCEC) }\nMythic\n\nLevel 1\n\n© DEF +40\nGB SPD +3\nBP +192\nDEF Bonus +2%\nEffect ACC +A%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 350,
-        "texto_extraido": "(@® Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC)\n\nMythic\n\nLevel 1\n\n® DEF +40\nEffect RES +3\nGB SPD +3\nGQ DEF Bonus +3%\nGe CRIT Rate +2%\nNot equipped by Animuses."
+        "item_numero": 72,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nCACEU) j\nMythic\n\nLevel 1\n\n@ DEF +40\nFR CRIT Rate +2%\n(RB Effect RES +4%\ni Ark +19\nNot equipped by Animuses."
     },
     {
-        "item_numero": 351,
+        "item_numero": 73,
+        "texto_extraido": "W Bedrock Wristwheel: Unbreakable f\nUnbreakable ©\n\nORC) }\nMythic\n\nLevel 1\n\nDEF +40\ni +192\nDEF Bonus +3%\nNot equipped by Animuses."
+    },
+    {
+        "item_numero": 74,
         "texto_extraido": "(@ Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC) }\nMythic\n\nLevel 1\n\n© DEF +40\nBi +222\nGB SPD +3\n(Effect RES +4,\nAk +19\nNot equipped by Animuses."
     },
     {
-        "item_numero": 352,
+        "item_numero": 75,
         "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nMythic\n\nLevel 1\n\n@ DEF +40\nSS Effect ACC +3%\ni Ark +29\n(RB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 353,
-        "texto_extraido": "W Bedrock Wristwheel: Unbreakable f\nUnbreakable ©\n\nORC) H\nMythic\n\nLevel 1\n\n@ DEF +40\nFR CRIT Rate +2%\nDEF Bonus +24\nNot equipped by Animuses."
+        "item_numero": 76,
+        "texto_extraido": "(@ Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC) }\nMythic\n\nLevel 1\n\n© DEF +40\nGB SPD +3\nEffect ACC +34\nDEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 354,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nMythic\n\nLevel 1\n\n@ OEF +40\nFR CRIT Rate +2%\ni Ark +29\nGB SPD +3\nNot equipped by Animuses."
+        "item_numero": 77,
+        "texto_extraido": "W Bedrock Wristwheel: Unbreakable f\nUnbreakable ©\n\nORC) }\nMythic\n\nLevel 1\n\nDEF +40\nGB SPD +3\nDEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 355,
-        "texto_extraido": "(@® Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC)\n\nMythic\n\nLevel 1\n\n® DEF +40\nGQ DEF Bonus +3%\nEffect RES +4,\nGB SPD +3\nGe CRIT Rate +2%\nNot equipped by Animuses."
+        "item_numero": 78,
+        "texto_extraido": "(® Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORO, }\nMythic\n\nLevel 1\n\n© DEF +40\nDEF Bonus +3%\nEffect RES +4%\nBi +222\nNot equipped by Animuses."
     },
     {
-        "item_numero": 356,
+        "item_numero": 79,
         "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nMythic\n\nLevel 1\n\nDEF +40\nDEF Bonus +2%\ntp +192\ni Ark +19\nNot equipped by Animuses."
     },
     {
-        "item_numero": 357,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable @\n\nORC) }\nMythic\n\nLevel 1\n\nDEF +40\nale +222\n(Effect RES +4%\nNot equipped by Animuses."
+        "item_numero": 80,
+        "texto_extraido": "(@® Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC)\n\nMythic\n\nLevel 1\n\n® DEF +40\nEffect RES +3\nGB SPD +3\nGQ DEF Bonus +3%\nGe CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 358,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nMythic\n\nLevel 1\n\n@ DEF +40\n(RB Effect RES +4%\nSS} Effect ACC +3%\nNot equipped by Animuses."
+        "item_numero": 81,
+        "texto_extraido": "W Bedrock Wristwheel: Unbreakable f\nUnbreakable ©\n\nORC) H\nMythic\n\nLevel 1\n\n@ DEF +40\nFR CRIT Rate +2%\nDEF Bonus +24\nNot equipped by Animuses."
     },
     {
-        "item_numero": 359,
-        "texto_extraido": "f Stern Core: Unbreakable Be\nUnbreakable © jai\nGOD we\nMythic\nLevel 1 f\n} HP +500\nDEF +13\nDEF Bonus +3%\nNot equipped by Animuses."
+        "item_numero": 82,
+        "texto_extraido": "(@® Bedrock Wristwheel: Unbreakable #\nUnbreakable ©\n\nURC)\n\nMythic\n\nLevel 1\n\n® DEF +40\nGQ DEF Bonus +3%\nEffect RES +4,\nGB SPD +3\nGe CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 360,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nDOD we\nMythic\nLevel 1 f\n© ATK Bonus +15%\nAk +22\nGy CRIT DMG +3%\nBi +192\nNot equipped by Animuses."
+        "item_numero": 83,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nMythic\n\nLevel 1\n\n@ OEF +40\nFR CRIT Rate +2%\ni Ark +29\nGB SPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 361,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\nLevel 1 f\n} HP +500\n(Effect RES +4%\nGD ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 362,
+        "item_numero": 84,
         "texto_extraido": "(® Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nURC) j\nMythic\n\nLevel 1\n\n© DEF +40\nGB SPD +3\nDEF Bonus +3%\n(Effect RES +3%\nAk +22\nNot equipped by Animuses."
     },
     {
-        "item_numero": 363,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\n© ATK +50\nGy CRIT DMG +4%\nDEF +14\nNot equipped by Animuses."
+        "item_numero": 85,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable @\n\nORC) }\nMythic\n\nLevel 1\n\nDEF +40\nale +222\n(Effect RES +4%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 364,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOD we\nMythic\n\nLevel 1 f\n& Effect RES +18%\nBi +222\nEffect ACC +3%\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 365,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\n} HP +500\nEffect ACC +3%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 366,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © jai\nOO ww\nMythic\nLevel 1 f\nQ HP +500\nGQ DEF Bonus +2%\nGe CRIT Rate +2%\nGy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 367,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\n& Effect RES +18%\nEy HP Bonus +3%\nDEF +13\nAk +19\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 368,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOD we\nMythic\n\nLevel 1 f\n© ATK Bonus +15%\nDEF +14\nAk +19\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 369,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\n& Effect RES +18%\nGD ATK Bonus +2%\nEffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 370,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\nx CRIT DMG +18%\nGe CRIT Rate +2%\nDEF Bonus +3%\n(Effect RES +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 371,
-        "texto_extraido": "© Vital Mask: Wellspring zo\nWellspring © | (\n66 a.\nMythic I\nLevel 1 4\n\n© ATK +50\nGS CRIT OMG +4%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 372,
-        "texto_extraido": "© Vital Mask: Wellspring zo\nWellspring © | (\n66 a.\nMythic I\nLevel 1 4\n\n© ATK +50\nGS CRIT OMG +4%\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 373,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © jai\nOD ww\nMythic\n\nLevel 1 f\n© AIK +50\nGe CRIT Rate +2%\nBy HP Bonus +3%\n@ [ffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 374,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © &,\n66 ”\nMythic\n\nLevel 1\n\n& uP +500\ni DEF +14\nsro +3\nBe Ark +19\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 375,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOO we\nMythic\n\nLevel 1 f\n& Effect RES +18%\nGy CRIT DMG +4%\nAk +19\nDEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 376,
-        "texto_extraido": "fs Vitality Core: Wellspring feo\nWellspring © aK\n66 4\nMythic -&\n\nLevel 1 \\\n\n% CRIT Rate +12%\nGe uP +222\nGB CRIT DMG +4%\nMB DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 377,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nOD we\nMythic\nLevel 1 f\n© ATK Bonus +15%\nEy HP Bonus +2%\nEffect ACC +4%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 378,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\nMythic -®\n\nLevel 1 \\\n\n% CRIT Rate +12%\nBB Effect RES +A%\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 379,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n46 SS 4\nMythic -&\n\nLevel 1 \\\n\n@ DEF Bonus +15%\nGy uP +222\nDEF +13\nGB AIK Bonus +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 380,
+        "item_numero": 86,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nMythic &, A,\nLevel 1\n\n@ DEF +40\n@ ir +192\nAtk +29\nNot equipped by Animuses."
     },
     {
-        "item_numero": 381,
-        "texto_extraido": "fs Vitality Core: Wellspring feo\nWellspring © aK\n46 4\nMythic -&\n\nLevel 1 \\\n\n& Effect RES +18%\nMB DEF Bonus +2%\nGB CRIT DMG +3%\n@ ir +192\nNot equipped by Animuses."
+        "item_numero": 87,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nMythic\n\nLevel 1\n\n@ DEF +40\n(RB Effect RES +4%\nSS} Effect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 382,
-        "texto_extraido": "fs Vitality Core: Wellspring feo\nWellspring © aK\n66 4\nMythic -&\n\nLevel 1 \\\n\n& HP +500\nGB ATK Bonus +2%\nBe Effect RES +3%\nMB DEF Bonus +2%\nEffect ACC +A%\nNot equipped by Animuses."
+        "item_numero": 88,
+        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe ‘s\nOutstanding a\nLevel 1\n\n@ OEF +34\n(Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 383,
-        "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nMythic &, A,\nLevel 1\n\n@ DEF +40\n(DEF Bonus +24\nBH Effect RES +34,\nBe Ak +29\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 384,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n46 NA 4\nMythic -®\n\nLevel 1 \\\n\n® DEF +40\n@ ir +192\n@ ATK +19\n@& [ffect Acc +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 385,
-        "texto_extraido": "© _Bladed Mask: Onslaught Bo\nOnslaught © ~\nran fr\n\nMythic { )\nLevel 1 -\n\n© ATK +50\nSPD +3\ni) dtr +13\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 386,
-        "texto_extraido": "© Bladed Mask: Onslaught Zo\nOnslaught © ~\nMythic {\nLevel 1 -\n\n© ATK +50\nGB CRIT Rate +2%\ni DEF +14\nBe sro +3\n[Effect ACC +A%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 387,
-        "texto_extraido": "Q  Battlewill Transistor: Onslaught  @\nOnslaught © oO\nbs le\nMythic ;\n\nLevel 1 ‘\n\nQ HP +500\nMe AK +19\nEffect RES +34,\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 388,
-        "texto_extraido": "Q Battlewill Transistor: Onslaught Hg\nOnslaught © of\nbs le\nMythic ;\n\nLevel 1 :\n\n& HP +500\nBe sro +3\nGy HP Bonus +2%\ni DEF +14\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 389,
-        "texto_extraido": "2 Battlewill Transistor: Onslaught\nOnslaught © oO\nbs le\nMythic .\n\nLevel 1 ‘\n\n} HP +500\nEy HP Bonus +24\nsro +3\ni +14\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 390,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e a\nMythic <i ie\nLevel 1\n\n© ATK Bonus +15%\nEy HP Bonus +3%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 391,
+        "item_numero": 89,
         "texto_extraido": "© Assault Wristwheel: Onslaught f @\nOnslaught © QZ\nes y,\n\nMythic fa\nLevel 1 —=\n\n@ DEF +40\n@& [ffect Acc +A%\nAtk +19\nGB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 392,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye © me\nOutstanding rm 0\nLevel 1 1%\n\n© ATK +42\n© [ffect Acc +3%\ni dtr +11\nGB ATK Bonus +2%\nNot equipped by Animuses."
+        "item_numero": 90,
+        "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nMythic &, A,\nLevel 1\n\n@ DEF +40\n(DEF Bonus +24\nBH Effect RES +34,\nBe Ak +29\nNot equipped by Animuses."
     },
     {
-        "item_numero": 393,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye © o.\nOutstanding is 0\nLevel 1 7\n\n© AIK +42\n@& [ffect Acc +3%\n|= | CRIT DMG +3%\nGe sro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 394,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nbes a.\nMythic ~ ie\nLevel 1\n\n© ATK Bonus +15%\n@& [ffect Acc +A%\nGy HP Bonus +2%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 395,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\nMythic <i ie\nLevel 1\n\n© ATK +50\ni +14\n@ tr +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 396,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye () o\nOutstanding a 0\nLevel 1 1°\n\n© ATK +42\nGy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 397,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nés a.\nMythic ~ ie\nLevel 1\n\n% CRIT Rate +12%\n@& [ffect Acc +3%\nGB ATK Bonus +2%\n@ ir +222\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 398,
+        "item_numero": 91,
         "texto_extraido": "( Overlapping Wristwheel: Insight BH @\nKeeneye (#) ~\nOutstanding ' Cs\nLevel 1 id\n\n@® DEF +34\ntr +168\n@ [ffect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 399,
+        "item_numero": 92,
         "texto_extraido": "(® Overlapping Wristwheel: Insight BH @\nKeeneye (5) _\nOutstanding Cs\nLevel 1 id\nDEF +34\nSPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 400,
-        "texto_extraido": "© Observation Mask: Insight 8 @\nKeeneye © me\nOutstanding rm 0\nLevel 1 17\n\n© ATK +42\nGB ATK Bonus +2%\nsro +2\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 401,
-        "texto_extraido": "(4 Quantum Core: Insight Bo\nKeeneye () ~\nPP “aa\nOutstanding ian WS\nLevel 1 ~\n\n© AIK +42\nGB CRIT Rate +2%\nBe Effect RES +3%\n| DEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 402,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © eS\n\ny > ¢~/\nOutstanding fey\nLevel 1 se\n\n& HP +420\nGB CRIT Rate +2%\nBH Effect RES +3%\nGy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 403,
-        "texto_extraido": "Q Collapse Transistor: Insight @ @\nKeeneye © re\n> era\nOutstanding fey\nLevel 1 ee\n\n& HP +420\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 404,
-        "texto_extraido": "(\\ Quantum Core: Insight Bo\nKeeneye (5) ~\n\n> P Ye\nOutstanding ian WS\nLevel 1 ~\n\n© AIK +42\nGB CRIT Rate +2%\n@ HP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 405,
-        "texto_extraido": "Collapse Transistor: Insight 8 @\nKeeneye © eS\n> ¢~/\nOutstanding fey\nLevel 1 ‘sy\n\n& HP +420\ni DEF +11\nBe sro +2\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 406,
-        "texto_extraido": "(\\ Quantum Core: Insight Bo\nKeeneye (5) ~\n\n> P Ye\nOutstanding ian WS\nLevel 1 ~\nHP Bonus +12%\nGB AIK Bonus +2%\n(DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 407,
-        "texto_extraido": "( Quantum Core: Insight Bo\nKeeneye @ . ~\n> ia\nOutstanding “\nLevel 1 s\n\n<> Effect ACC +15%\nsro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 408,
-        "texto_extraido": "( Quantum Core: Insight Bo\nKeeneye @ . ~\n> ia\nOutstanding “\nLevel 1 s\n\n@ DEF Bonus +12%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 409,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave © <<\nWoy LL)\nOutstanding &\nLevel 1 ~\n\n} HP +420\nGS CRIT OMG +3%\nBB Effect RES +3%\nAk +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 410,
-        "texto_extraido": "% Illusion Transistor: Time eo\nTimeweave © <<\nwo )\nOutstanding &\nLevel 1 ~\n\n& uP +420\nSPD +3\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 411,
-        "texto_extraido": "( Quantum Core: Insight Bo\nKeeneye @ . ~\n> ia\nOutstanding “\nLevel 1 s\n\n@ DEF Bonus +12%\ni) dtr +11\nGB HP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 412,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave © <<\nWoy LL)\nOutstanding &\nLevel 1 ~\n\n} HP +420\nEy HP Bonus +2%\nArk +17\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 413,
-        "texto_extraido": "% Illusion Transistor: Time eo\nTimeweave © <<\nWoy )\nOutstanding &\nLevel 1 ~\n\nQ HP +420\nBe Ark +17\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 414,
-        "texto_extraido": "( Lightcone Core: Time Bo\nTimeweave ©)\nOutstanding A\nLevel 1 ts\nHP Bonus +12%\nsro +2\n@ Hr +168\nBe Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 415,
-        "texto_extraido": "& Lightcone Core: Time Bo\nTimeweave © |\n\nY as Lal\nOutstanding SA\n\n@ DEF Bonus +12%\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 416,
-        "texto_extraido": "% Illusion Transistor: Time = eo\nTimeweave © <<\nWoy LL)\nOutstanding &\nLevel 1 ~\n\n} HP +420\ni) dtr +11\nsro +3\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 417,
+        "item_numero": 93,
         "texto_extraido": "© Fate Wristwheel: Time & oo\nWe 4\nOutstanding od\nLevel 1\n\n© DEF +34\nGe CRIT Rate +2%\ntr +168\nGB SPD +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 418,
-        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe 4\nOutstanding od\nLevel 1\n\n© DEF +34\nGQ DEF Bonus +2%\nGe CRIT Rate +2%\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 419,
-        "texto_extraido": "& Lightcone Core: Time Bo\nTimeweave © |\nwy La\nOutstanding SA\n\n@ DEF Bonus +12%\n@ ir +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 420,
-        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\nBloodbath ©\n\nww)\n\nOutstanding :\nLevel 1 >\n\n@ OEF +34\nGe CRIT Rate +2%\nEffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 421,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave © |\nwy La\nOutstanding SA\nLevel 1 ill.\n& Effect RES +15%\nGy uP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 422,
-        "texto_extraido": "2 Toughness Transistor: Bloodshed t\nBloodbath © eS\nwv)\n\nOutstanding ,\n\nLevel 1 ne\n\n& HP +420\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 423,
-        "texto_extraido": "(& Lightcone Core: Time Bo\nTimeweave ©)\nOutstanding A\nLevel 1 ts\n© ATK Bonus +12%\nMB DEF Bonus +2%\nGB CRIT DMG +3%\nBe Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 424,
-        "texto_extraido": "© Unyielding Mask: Bloodshed @ @\nBloodbath ©\n\now) ‘4\nOutstanding yo y\nLevel 1 “Se\n\n© ATK +42\nSS Effect ACC +3%\nDEF +11\nFR CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 425,
-        "texto_extraido": "f Courage Core: Bloodshed Bo\nBloodbath © <s\n\nO©@ s\nOutstanding Doo\nLevel 1 ree\n\n% CRIT Rate +10%\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 426,
-        "texto_extraido": "f Courage Core: Bloodshed Bo\nBloodbath © <s\n\nO@ +\nOutstanding mo\nLevel 1 re\n\n© ATK +42\nale +168\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 427,
-        "texto_extraido": "Raging Core: Fury go\nwy © “ee?\ni \\' —_\nOutstanding =\n\nLevel 1\n\n© ATK Bonus +12%\nBe Effect RES +3%\nEffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 428,
-        "texto_extraido": "© Wrath Mask: Fury Bo\nFury ©\n\nXe te ( nd _/\nOutstanding qo e\nLevel 1 ,\n\n© ATK +42\n@ ir +168\nGB CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 429,
-        "texto_extraido": "© Piercing Mask: Harvest zo\nHarvest ©\n\na 4\nOutstanding -\nLevel 1 ye\n© ATK +42\n© [ffect Acc +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 430,
-        "texto_extraido": "Q Deep-Cut Transistor: Harvest @ @\nHarvest © at,\nKo an\nOutstanding Co\n\nLevel 1 ~\n\nQ HP +420\nEy HP Bonus +2%\ni) dtr +11\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 431,
-        "texto_extraido": "(&\\ Raging Core: Fury Bo\nee “ge?\norn \\\\ wy\nOutstanding =.\n\nLevel 1\n\nQ HP +420\nBB Effect RES +3%\nsro +3\nBB HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 432,
-        "texto_extraido": "© Piercing Mask: Harvest Bo\nHarvest ©\n\n“ 4\nOutstanding ”\nLevel 1 ye\n© ATK +42\nGS CRIT DMG +3%\nGB CRIT Rate +2%\nGB AIK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 433,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © v4\nOutstanding SS\nLevel 1\n\n© ATK Bonus +12%\ni) dtr +11\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 434,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © v4\nOutstanding SS\nLevel 1\n\n> Effect ACC +15%\nEy HP Bonus +2%\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 435,
-        "texto_extraido": "© Breaking Wristwheel: Harvest B® @\nHarvest © ,\nOutstanding (A\nLevel 1 ‘\\\n\n® DEF +34\n(DEF Bonus +2%\nGB CRIT Rate +2%\nGe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 436,
-        "texto_extraido": "2 Deep-Cut Transistor: Harvest & @\nHarvest © a,\nKo\nOutstanding a\n\nLevel 1 ~\n\n} HP +420\ni) dtr +11\nGS CRIT DMG +3%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 437,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nOutstanding (A\nLevel 1 ‘\\\n\n@® DEF +34\nAk +17\n@ [ffect ACC +3%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 438,
-        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nOutstanding 7\nLevel 1 -\n\nDEF +34\nEffect RES +3%\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 439,
-        "texto_extraido": "(& Piercing Core: Harvest = eo\nHarvest © 4\nOutstanding SS\nLevel 1\n\n<> Effect ACC +15%\ni) dtr +11\nGS CRIT DMG +3%\nAk +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 440,
+        "item_numero": 94,
         "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nOutstanding 7\nLevel 1 -\n\nDEF +34\nEffect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 441,
-        "texto_extraido": "( Ascension Core: Strive Bo\nStrive ©\n\nee 0\nOutstanding\n\nLevel 1 ¢\nHP Bonus +12%\nGS CRIT OMG +3%\nsro +2\nNot equipped by Animuses."
+        "item_numero": 95,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nOutstanding (A\nLevel 1 ‘\\\n\n@® DEF +34\nAk +17\n@ [ffect ACC +3%\nBB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 442,
-        "texto_extraido": "(& Ascension Core: Strive Bo\nStrive © 4\nee ©\nOutstanding\n\nLevel 1 ¢\n\n& Effect RES +15%\nGy CRIT DMG +3%\nNot equipped by Animuses."
+        "item_numero": 96,
+        "texto_extraido": "(® Tenacious Wristwheel: Bloodshed  @\nBloodbath ©\n\nww)\n\nOutstanding :\nLevel 1 >\n\n@ OEF +34\nGe CRIT Rate +2%\nEffect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 443,
-        "texto_extraido": "Q Catalysis Transistor: Strive 8 @\nStrive © i\nSs S < ye\n\n7\nOutstanding oe. ,\nLevel 1 &\n& HP +420\nGS CRIT DMG +3%\nDEF +11\nBB Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 97,
+        "texto_extraido": "© Fate Wristwheel: Time & oo\nWe 4\nOutstanding od\nLevel 1\n\n© DEF +34\nGQ DEF Bonus +2%\nGe CRIT Rate +2%\nEffect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 444,
-        "texto_extraido": "Q Catalysis Transistor: Strive 8 @\n\nStrive © a)\n\nS S ra ve\nty\n\nOutstanding A °\n\nLevel 1 &\n\n& uP +420\n\nBe Ark +17\n\nNot equipped by Animuses."
+        "item_numero": 98,
+        "texto_extraido": "© Breaking Wristwheel: Harvest & @\nHarvest © ,\nOutstanding 7\nLevel 1 -\n\nDEF +34\nEffect RES +3%\nGe CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 445,
-        "texto_extraido": "© Immortality Mask: Cure Bo\nCure ©\n\naa n>\nOutstanding ,\nLevel 1\n\n© ATK +42\nSPD +2\n@ tr +168\nNot equipped by Animuses."
+        "item_numero": 99,
+        "texto_extraido": "© Breaking Wristwheel: Harvest B® @\nHarvest © ,\nOutstanding (A\nLevel 1 ‘\\\n\n® DEF +34\n(DEF Bonus +2%\nGB CRIT Rate +2%\nGe sro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 446,
-        "texto_extraido": "(& Ascension Core: Strive Bo\nStrive © 4\nee 0\nOutstanding\n\nLevel 1 ¢\n\n% CRIT Rate +10%\nGy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 447,
-        "texto_extraido": "© Rush Mask: Strive Bo\nStrive © , \\\nvid\nOutstanding Vey\nLevel 1\n© ATK +42\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 448,
-        "texto_extraido": "© Immortality Mask: Cure Bo\nCure ©\n\nad A\nOutstanding °\nLevel 1\n\n© ATK +42\n© [ffect Acc +3%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 449,
-        "texto_extraido": "(&\\ Ascension Core: Strive Bo\nStrive ©\n\nOttaning fds\nLevel 1 4\n\n© AIK +42\nBB Effect RES +3%\n@ Hr +168\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 450,
-        "texto_extraido": "© Immortality Mask: Cure Bo\nCure ©\n\nad A\nOutstanding °\nLevel 1\n\n© ATK +42\nBB CRIT Rate +2%\ni dtr +11\nGS CRIT OMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 451,
-        "texto_extraido": "© Immortality Mask: Cure Bo\nCure ©\n\nad A\nOutstanding °\nLevel 1\n\n© ATK +42\ni) dtr +11\nGS CRIT DMG +3%\n© [ffect Acc +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 452,
-        "texto_extraido": "(& Ascension Core: Strive Bo\nStrive © 4\nee 0\nOutstanding\n\nLevel 1 ¢\n\n2 HP Bonus +12%\nBe Ark +17\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 453,
-        "texto_extraido": "Q Repair Transistor: Cure be\nCure © Say\nada\n\nOutstanding\n\nLevel 1 \\\n\n& HP +420\nfy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 454,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\nHP Bonus +12%\nDEF Bonus +2%\nDEF +11\nSS Effect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 455,
-        "texto_extraido": "W Self-Healing Wristwheel: Cure @ @\nCure © '\nada\nOutstanding A c\nLevel 1 4\n\n@ OEF +34\ni Ark +17\n(RB Effect RES +3%\nDEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 456,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n(DEF Bonus +12%\ni Ark +17\nFH CRIT Rate +2%\nfy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 457,
-        "texto_extraido": "Revival Core: Cure eo\nCure ©\n\nada |\nOutstanding /\nLevel 1\n\nx CRIT DMG +15%\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 458,
+        "item_numero": 100,
         "texto_extraido": "W Self-Healing Wristwheel: Cure @& @\nCure © '\nada ;\nOutstanding C)\nLevel 1 *\n\n® OEF +34\nale +168\nGB SPD +2\nNot equipped by Animuses."
     },
     {
-        "item_numero": 459,
-        "texto_extraido": "Q Repair Transistor: Cure Bo\nCure © Se\nada\n\nOutstanding\n\nLevel 1 \\\n\n& HP +420\nGB SPD +2\nGe CRIT Rate +2%\nDEF +11\nNot equipped by Animuses."
+        "item_numero": 101,
+        "texto_extraido": "W Self-Healing Wristwheel: Cure @ @\nCure ©\n\nada '\nOutstanding @)\nLevel 1 “\nDEF +34\natk +17\nEffect RES +3\n(DEF Bonus +2,\n@ Lilith Equipped Current"
     },
     {
-        "item_numero": 460,
-        "texto_extraido": "Q Repair Transistor: Cure Bo\nCure ©\n\nada ~\nOutstanding\n\nLevel 1 \\\n\n& HP +420\n(Effect RES +3%\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 461,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\nx CRIT DMG +15%\nSS Effect ACC +3%\nATK Bonus +2%\nFR CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 462,
-        "texto_extraido": "f Revival Core: Cure to\nCure ©\n\nada\n\nOutstanding /\nLevel 1\n\nHP Bonus +12%\nDEF +11\n(Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 463,
-        "texto_extraido": "f Revival Core: Cure to\nCure ©\n\nada\n\nOutstanding /\nLevel 1\n\n(DEF Bonus +12%\n(Effect RES +3%\ni CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 464,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n& Effect RES +15%\nig +168\ni Ark +17\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 465,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n© ATK Bonus +12%\nGB SPD +3\nSS} Effect ACC +3%\ni +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 466,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n%* CRIT Rate +10%\nDEF Bonus +2%\ni Ark +17\ni +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 467,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n& HP +420\nfy CRIT DMG +3%\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 468,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nad |\nOutstanding /\nLevel 1\n\n(DEF Bonus +12%\na Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 469,
-        "texto_extraido": "f Revival Core: Cure to\nCure ©\n\nada\n\nOutstanding /\nLevel 1\n\nx CRIT DMG +15%\nale +168\nEffect ACC +3,\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 470,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n© ATK +42\nDEF +11\nSS} Effect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 471,
-        "texto_extraido": "f Revival Core: Cure =o\nCure ©\n\nada\n\nOutstanding :\nLevel 1\n\n& HP +420\nFR CRIT Rate +2%\n(RB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 472,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBA ,\nOutstanding \\ °\n\nLevel 1 .\n\n© AIK +42\nGy CRIT DMG +3%\nMB ATK Bonus +2%\nGp dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 473,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fh\nBA tr,\nOutstanding \\ °\n\nLevel 1\n\n© ATK +42\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 474,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © a\nAR Se\nOutstanding j/\nLevel 1 ~/\n\n& HP +420\nBy HP Bonus +2%\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 475,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © a\nAR Se\nOutstanding j/\nLevel 1 ~/\n\n& HP +420\nGe CRIT Rate +2%\nGB SPD +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 476,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBA ,\nOutstanding \\ °\n\nLevel 1 .\n\n© AIK +42\nMB ATK Bonus +2%\nGy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 477,
-        "texto_extraido": "2 Synergy Transistor: Bramble @ @\nBramble © a\nAR Se\nOutstanding j/\nLevel 1 ~/\n\n& HP +420\nGe CRIT Rate +2%\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 478,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble © / fr\nBA\nOutstanding \\ °\n\nLevel 1 .\n\n© AIK +42\nGB SPD +3\nES uP +168\nGp dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 479,
-        "texto_extraido": "f Rebound Core: Bramble Bo\nBramble ©\n\nABA\n\nOutstanding lJ\nLevel 1\n\n} HP Bonus +12%\nHP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 480,
-        "texto_extraido": "© Reflect Mask: Bramble Bo\nBramble ® / ff\nBA ,\nOutstanding \\ °\n\nLevel 1\n\n© ATK +42\nGD ATK Bonus +2%\nBP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 481,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble ©\n\nBA\nOutstanding J\nLevel 1\n\nx CRIT DMG +15%\nDEF +11\n(RB Effect RES +3%\ni Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 482,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nOutstanding JZ\nLevel 1\n\n(DEF Bonus +12%\nEy HP Bonus +2%\nDEF +11\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 483,
-        "texto_extraido": "f Rebound Core: Bramble Bo\nBramble ©\n\nBA\n\nOutstanding |\nLevel 1\n\n® OEF +34\nGB SPD +2\na Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 484,
-        "texto_extraido": "Rebound Core: Bramble eo\nBramble ©\n\nABA\n\nOutstanding lJ\nLevel 1\n\n& Effect RES +15%\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 485,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\nOutstanding JZ\nLevel 1\n\nHP Bonus +12%\nDEF Bonus +2%\nEffect ACC +3%\nBi +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 486,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\nOutstanding JZ\nLevel 1\n\n© ATK +42\nGB SPD +3\nDEF Bonus +2%\nDEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 487,
-        "texto_extraido": "Q  Valorous Transistor: Battlewill  @\nBattlewill © SS\nGE > /\nOutstanding /\n\nLevel 1 ba a\n\n} HP +420\nsro +3\nGS CRIT DMG +3%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 488,
-        "texto_extraido": "f Rebound Core: Bramble Be\nBramble ©\n\nBA\nOutstanding J\nLevel 1\n\n%* CRIT Rate +10%\nDEF Bonus +2%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 489,
-        "texto_extraido": "Q  Valorous Transistor: Battlewill  @\nBattlewill © SS\nGE > /\nOutstanding /\n\nLevel 1 ba a\n\n} HP +420\nGS CRIT OMG +3%\nBy HP Bonus +2%\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 490,
-        "texto_extraido": "%  Valorous Transistor: Battlewill\nBattlewill © »\nGE » /\nOutstanding (&/\n\nLevel 1 wf\n\n& HP +420\nGp dtr +11\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 491,
-        "texto_extraido": "© Fearless Mask: Battlewill Bo\nBattlewill © .\n\n@@ rN\nOutstanding ,\nLevel 1\n\n© AIK +42\nGe CRIT Rate +2%\ntr +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 492,
-        "texto_extraido": "%  Valorous Transistor: Battlewill  @\nBattlewill © »\nGE »\nOutstanding l/\n\nLevel 1 a\n\n& uP +420\nSPD +3\na Ak +17\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 493,
-        "texto_extraido": "( Rebound Core: Bramble Bo\nBramble ©\n\nBA\nOutstanding JZ\nLevel 1\n\n& Effect RES +15%\nDEF +11\nDEF Bonus +2%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 494,
-        "texto_extraido": "(4 Warlust Core: Battlewill Bo\nBattlewill © .\nOutstanding we\nLevel 1 1S\n\n<> Effect ACC +15%\n@ tr +168\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 495,
-        "texto_extraido": "(4 Warlust Core: Battlewill Bo\nBattlewill © .\nOutstanding a\nLevel 1 Ss\n\n© DEF Bonus +12%\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 496,
-        "texto_extraido": "© Fearless Mask: Battlewill Bo\nBattlewill © .\n\n@@ rN\nOutstanding ,\nLevel 1\n\n© AIK +42\nGe CRIT Rate +2%\nMB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 497,
+        "item_numero": 102,
         "texto_extraido": "© Fierce Wristwheel: Battlewill & @\nBattlewill ©\n\nOutstanding 72\nLevel 1 LI\n@® DEF +34\n(i) DEF Bonus +2%\nBB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 498,
+        "item_numero": 103,
         "texto_extraido": "© Fierce Wristwheel: Battlewill & @\nBattlewill ©\n\nOutstanding 72\nLevel 1 LI\n@® DEF +34\nAk +17\n(iD DEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 499,
-        "texto_extraido": "© Fierce Wristwheel: Battlewill  @\nBattlewill ©\n\nGE wo);\nOutstanding ZZ\nLevel 1 Xf\n@ DEF +34\n@& [ffect Acc +3%\nBH Effect RES +3%\nGB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 500,
+        "item_numero": 104,
         "texto_extraido": "© Fierce Wristwheel: Battlewill & @\nBattlewill ©\n\nOutstanding 72\nLevel 1 aX\n@® DEF +34\nsro +3\nBB Effect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 501,
-        "texto_extraido": "(4 Warlust Core: Battlewill Bo\nBattlewill © .\nOutstanding we\nLevel 1 1S\nHP Bonus +12%\nBB CRIT Rate +2%\n@ tr +168\nBB Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 105,
+        "texto_extraido": "© Fierce Wristwheel: Battlewill  @\nBattlewill ©\n\nGE wo);\nOutstanding ZZ\nLevel 1 Xf\n@ DEF +34\n@& [ffect Acc +3%\nBH Effect RES +3%\nGB CRIT Rate +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 502,
-        "texto_extraido": "( Warlust Core: Battlewill Bo\nBattlewill © .\nOutstanding 4) Ne\nLevel 1 1S\n\n<> Effect ACC +15%\nGy uP +168\nGS CRIT DMG +3%\n(DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 503,
-        "texto_extraido": "© Fierce Wristwheel: Battlewill  @\nBattlewill ©\n\nOutstanding 72\nLevel 1 ~ GY\nDEF +34\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 504,
-        "texto_extraido": "© Filtering Mask: Bulwark a o\nBulwark @) ©\nOutstanding ‘ow\nLevel 1 .\n\n© ATK +42\ni DEF +11\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 505,
-        "texto_extraido": "© Filtering Mask: Bulwark a o\nBulwark @) ©\nOutstanding ‘ow\nLevel 1 .\n\n© AIK +42\n@ ir +168\ni DEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 506,
-        "texto_extraido": "Q) Supercomputing Transistor: Bulwark EY\nBulwark ©\nOutstanding a\nLevel 1 coal\n\nQ HP +420\nGy CRIT DMG +3%\nEffect RES +3%\nBe Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 507,
-        "texto_extraido": "© Filtering Mask: Bulwark Bo\nBulwark © sul\nOutstanding ‘ow\nLevel 1\n\n© AIK +42\nGB ATK Bonus +2%\nEffect ACC +3%\nGB CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 508,
-        "texto_extraido": "(4 Warlust Core: Battlewill Bo\nBattlewill © .\nOutstanding we\nLevel 1 1S\nHP Bonus +12%\nsro +3\nBB CRIT Rate +2%\nAk +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 509,
-        "texto_extraido": "f Fusion Core: Bulwark Bo\nBulwark ©\n\nOutstanding Si\nLevel 1\n\n& HP +420\nEffect ACC +3,\nEy HP Bonus +2%\nATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 510,
-        "texto_extraido": "f Fusion Core: Bulwark Bo\nBulwark ©\nOutstanding Si\nLevel 1\n(DEF Bonus +12%\nfy CRIT DMG +3\ni CRIT Rate +2%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 511,
-        "texto_extraido": "fs Fusion Core: Bulwark ian\nBulwark ©\nOutstanding »\nLevel 1\n\n} HP Bonus +12%\nGiB CRIT Rate +2%\nHP +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 512,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\nSwiftrush ©\n\nds a\nOutstanding —\n\nLevel 1 ~\n\n© DEF +34\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 513,
+        "item_numero": 106,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\n$s C2\nOutstanding \\e\n\nLevel 1\n\nDEF +34\n [ffect Acc +3%\nsro +2\nNot equipped by Animuses."
     },
     {
-        "item_numero": 514,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\n© DEF Bonus +12%\nGy CRIT DMG +3%\n& [ffect ACC +3%\nBe Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 515,
-        "texto_extraido": "© Swift Mask: Swiftrush Bo\nSwiftrush © .\n\n$3 -_\nOutstanding ven“\nLevel 1 °\n\n© ATK +42\ni) dtr +11\n& [ffect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 516,
+        "item_numero": 107,
         "texto_extraido": "(® Instant Wristwheel: Swiftrushh & @\nSwiftrush ©\n\nso OC\nOutstanding \\e\n\nLevel 1\n\nDEF +34\ni +168\n& [ffect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 517,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\nDEF +34\nEffect RES +3%\nGe CRIT DMG +3%\nNot equipped by Animuses."
+        "item_numero": 108,
+        "texto_extraido": "© Fierce Wristwheel: Battlewill  @\nBattlewill ©\n\nOutstanding 72\nLevel 1 ~ GY\nDEF +34\nEffect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 518,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$s a\nOutstanding sy\n\nLevel 1 ~\n\n© ATK +42\nGS CRIT OMG +3%\n(iD DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 519,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\nDEF +34\ni +168\nsro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 520,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\n%* CRIT Rate +10%\ni) dtr +11\nGQ DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 521,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\n%* CRIT Rate +10%\nGy CRIT DMG +3%\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 522,
-        "texto_extraido": "( High-Speed Core: Swiftushh & @\nSwiftrush ©\n\nds a\nOutstanding —\n\nLevel 1 ~\n\n& Effect RES +15%\nGp dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 523,
-        "texto_extraido": "(4 High-Speed Core: Swiftrushh 8 @\nSwiftrush ©\n\n$s\nOutstanding ~\n\nLevel 1 ~\n\n2 HP Bonus +12%\nGB ATK Bonus +2%\nGe CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 524,
-        "texto_extraido": "(\\ High-Speed Core: Swiftrush 8 @\nSwiftrush ©\n\n$3 a\nOutstanding sy\n\nLevel 1 ~\n\n@ DEF Bonus +12%\nBB Effect RES +3%\nBy HP Bonus +2%\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 525,
-        "texto_extraido": "Immovable Transistor: Unbreakable Hy\nUnbreakable © © y\nURC)\nOutstanding by\n\nLevel 1 NG\n\n& HP +420\nAk +17\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 526,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nCRC) _\nOutstanding by\n\nLevel 1 NG\n\n& HP +420\nGy CRIT DMG +3%\nMe Ark +17\nEffect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 527,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nCRC) _\nOutstanding by\n\nLevel 1 NG\n\n& HP +420\nGB SPD +2\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 528,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\nclo a!\nOutstanding\n\nLevel 1 =\n\n© ATK +42\nEffect ACC +3,\ni CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 529,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nCRC) _\nOutstanding by\n\nLevel 1 NG\n\n& HP +420\nEffect RES +3%\nGB SPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 530,
-        "texto_extraido": "2) Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nCRC) _\nOutstanding by\n\nLevel 1 NG\n\n& HP +420\nGB SPD +3\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 531,
-        "texto_extraido": "© Ironclad Mask: Unbreakable @ @\nUnbreakable ©) 4\nOutstanding\n\nLevel 1 =\n\n© ATK +42\nale +168\nfy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 532,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nOutstanding\n\nLevel 1\n\n@ OEF +34\nFR CRIT Rate +2%\nDEF Bonus +2%\nSS Effect ACC +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 533,
-        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nOutstanding\n\nLevel 1\n\n® OEF +34\nGB SPD +3\nDEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 534,
-        "texto_extraido": "% Immovable Transistor: Unbreakable HY\nUnbreakable © © y\nOD .\nOutstanding by\n\nLevel 1 NG\n\n& uP +420\nEy HP Bonus +2%\nGe CRIT Rate +2%\nSPD +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 535,
+        "item_numero": 109,
         "texto_extraido": "(W® Bedrock Wristwheel: Unbreakable  @\nUnbreakable ©\n\nCRC) }\nOutstanding\n\nLevel 1\n\n@® OEF +34\nEffect RES +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 536,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © jai\nOO we\nOutstanding\n\nLevel 1 f\n<> Effect ACC +15%\nGy CRIT DMG +3%\nDEF Bonus +24\nNot equipped by Animuses."
+        "item_numero": 110,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nOutstanding\n\nLevel 1\n\n® OEF +34\nGB SPD +3\nDEF Bonus +2%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 537,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ja\nzu. LW\nOutstanding\n\nLevel 1 f\n(DEF Bonus +12%\n(Effect RES +3%\nNot equipped by Animuses."
+        "item_numero": 111,
+        "texto_extraido": "(W Bedrock Wristwheel: Unbreakable H @\nUnbreakable ©\n\nORC) }\nOutstanding\n\nLevel 1\n\n@ OEF +34\nFR CRIT Rate +2%\nDEF Bonus +2%\nSS Effect ACC +3%\nNot equipped by Animuses."
     },
     {
-        "item_numero": 538,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © jai\n= |\nOutstanding\n\nLevel 1 f\n(DEF Bonus +12%\nGe CRIT Rate +2%\nEffect ACC +3%\n(Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 539,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © jai\nOO we\nOutstanding\n\nLevel 1 f\n© ATK +42\nBi +168\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 540,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © ’.\n66 °\nOutstanding\n\nLevel 1\n\n& uP +420\nGy CRIT DMG +3%\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 541,
-        "texto_extraido": "f Stern Core: Unbreakable Bo\nUnbreakable © ya\noO we\nOutstanding\nLevel 1 f\n© AIK +42\nGy CRIT DMG +3%\nGQ DEF Bonus +2%\nMB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 542,
-        "texto_extraido": "© Vital Mask: Wellspring Bo\nWellspring © . (\n66 ~ of\nOutstanding =\nLevel 1 4\n\n© ATK +42\nBB CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 543,
-        "texto_extraido": "f Stern Core: Unbreakable Be\nUnbreakable © jai\na. Oh\nOutstanding\n\nLevel 1 f\nHP Bonus +12%\nHD ATK Bonus +2%\nFH CRIT Rate +2%\ni Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 544,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © ’.\n66 °\nOutstanding\n\nLevel 1\n\n& uP +420\ni) dtr +11\nGe CRIT DMG +3%\nEy HP Bonus +24\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 545,
-        "texto_extraido": "© Vital Mask: Wellspring zo\nWellspring © . (\n66 ' be\nOutstanding ——\nLevel 1 J\n\n© ATK +42\ni) dtr +11\nATK Bonus +2%\nGS CRIT OMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 546,
-        "texto_extraido": "© Vital Mask: Wellspring Bo\nWellspring © . (\n66 ~ of\nOutstanding =\nLevel 1 J\n\n© ATK +42\ni +168\nsro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 547,
-        "texto_extraido": "© Vital Mask: Wellspring zo\nWellspring © . (\n66 are.\nOutstanding ——\nLevel 1 J\n\n© ATK +42\nBB CRIT Rate +2%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 548,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © ’.\n66 °\nOutstanding\n\nLevel 1\n\n& uP +420\nBB CRIT Rate +2%\nGe CRIT DMG +3%\nSPD +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 549,
+        "item_numero": 112,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\n(DEF Bonus +24\nGB CRIT Rate +2%\n@ ir +168\nNot equipped by Animuses."
     },
     {
-        "item_numero": 550,
-        "texto_extraido": "© Vital Mask: Wellspring Bo\nWellspring © . (\n66 ~ of\nOutstanding =\nLevel 1 J\n\n© ATK +42\nGB ATK Bonus +2%\nsro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 551,
-        "texto_extraido": "© Vital Mask: Wellspring Bo\nWellspring © . (\n66 ~ of\nOutstanding =\nLevel 1 4\n\n© ATK +42\nGy CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 552,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © .\n66 °\nOutstanding\n\nLevel 1\n\n& HP +420\nBy HP Bonus +2%\nMe Ark +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 553,
-        "texto_extraido": "Q Vitality Transistor: Wellspring  @\nWellspring © ’.\n66 °\nOutstanding\n\nLevel 1\n\n& uP +420\nEy HP Bonus +2%\nGe CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 554,
+        "item_numero": 113,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, A,\nLevel 1\n\n@® DEF +34\nGB CRIT Rate +24\nsro +3\nMB DEF Bonus +2\nNot equipped by Animuses."
     },
     {
-        "item_numero": 555,
+        "item_numero": 114,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\n@ tr +168\n[Effect ACC +34,\nBe sro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 556,
+        "item_numero": 115,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\nGB CRIT Rate +24\n[Effect ACC +34,\nNot equipped by Animuses."
     },
     {
-        "item_numero": 557,
-        "texto_extraido": "fs Vitality Core: Wellspring feo\nWellspring © aK\n66 4\nOutstanding -&\n\nLevel 1 \\\n\n© ATK +42\nBe Effect RES +3%\nEffect ACC +3%\nGB CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 558,
+        "item_numero": 116,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\nBB Effect RES +3\nBe sro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 559,
-        "texto_extraido": "( Vitality Core: Wellspring feo\nWellspring © ak\n66 SS ‘\nOutstanding -&\n\nLevel 1 \\\nHP Bonus +12%\ni) dtr +11\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 560,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n66 SS 4\nOutstanding -®\n\nLevel 1 \\\n\n© ATK Bonus +12%\nGS CRIT DMG +3%\n(DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 561,
-        "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\n(DEF Bonus +24\n@ tr +168\nBe sro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 562,
+        "item_numero": 117,
         "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\nGB CRIT Rate +24\n@ tr +168\nBe sro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 563,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n46 “A 4a\nOutstanding -&\nLevel 1 \\\nHP Bonus +12%\nGB AIK Bonus +2%\nGS CRIT DMG +3%\ni DEF +11\nNot equipped by Animuses."
+        "item_numero": 118,
+        "texto_extraido": "© Vitality Wristwheel: Wellspring & @\nWellspring ©\n\nOutstanding &, 7,\nLevel 1\n\n@ DEF +34\n(DEF Bonus +24\n@ tr +168\nBe sro +3\nNot equipped by Animuses."
     },
     {
-        "item_numero": 564,
-        "texto_extraido": "( Vitality Core: Wellspring feo\nWellspring © ak\n66 SS ‘\nOutstanding -&\n\nLevel 1 \\\nHP Bonus +12%\nAk +17\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 565,
-        "texto_extraido": "( Vitality Core: Wellspring feo\nWellspring © ak\n66 SS ‘\nOutstanding -&\n\nLevel 1 \\\n\n& Effect RES +15%\nsro +3\nArk +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 566,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n66 “A 4\nOutstanding -&\n\nLevel 1 \\\nHP Bonus +12%\n@& [ffect Acc +3%\nBe sro +3\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 567,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n66 SS 4\nOutstanding -®\n\nLevel 1 \\\n\n& Effect RES +15%\nGB CRIT Rate +2%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 568,
-        "texto_extraido": "© _Bladed Mask: Onslaught Bo\nOnslaught © ~\nOutstanding { :\nLevel 1 -\n\n© ATK +42\n© [ffect Acc +3%\ni dtr +11\nGB ATK Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 569,
-        "texto_extraido": "2 Battlewill Transistor: Onslaught\nOnslaught © ao\nbs le\nOutstanding .\n\nLevel 1 ,\n\nuP +420\nGS CRIT OMG +3%\nBB CRIT Rate +24\nEy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 570,
-        "texto_extraido": "(& Vitality Core: Wellspring Bo\nWellspring © x\n46 “A 4a\nOutstanding -&\nLevel 1 \\\nHP Bonus +12%\n(DEF Bonus +2%\nGS CRIT DMG +3%\ni DEF +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 571,
-        "texto_extraido": "© _Bladed Mask: Onslaught Bo\nOnslaught © ~\nOutstanding { :\nLevel 1 -\n\n© ATK +42\ni) dtr +11\nsro +3\nGS CRIT OMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 572,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e ok\nOutstanding <i ie\nLevel 1\n\n@ DEF Bonus +12%\nGS CRIT OMG +3%\n@ tr +168\nsro +3\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 573,
+        "item_numero": 119,
         "texto_extraido": "© Assault Wristwheel: Onslaught f @\nOnslaught © G\nas Z\nOutstanding fa\nLevel 1 —=\n\n@ DEF +34\n@ ir +168\n(DEF Bonus +2%\nBe Ak +17\nNot equipped by Animuses."
     },
     {
-        "item_numero": 574,
+        "item_numero": 120,
         "texto_extraido": "© Assault Wristwheel: Onslaught f @\nOnslaught © G\nas Z\nOutstanding fa\nLevel 1 —=\n\n@ DEF +34\n(DEF Bonus +2%\nAtk +17\nBB Effect RES +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 575,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\nOutstanding <i ie\nLevel 1\n\nx CRIT DMG +15%\n(i) DEF Bonus +2%\nBy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 576,
-        "texto_extraido": "Q  Battlewill Transistor: Onslaught HH @\nOnslaught © oO\nbs le\nOutstanding ;\n\nLevel 1 ‘\n\n& HP +420\nAk +17\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 577,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nbes ok\nOutstanding i ie\nLevel 1\n\n® DEF +34\nGB CRIT Rate +2%\nGy HP Bonus +2%\nGS CRIT DMG +3%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 578,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\nbet os\nOutstanding <i ie\nLevel 1\n\n%* CRIT Rate +10%\n [ffect Acc +3%\ni) dtr +11\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 579,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nbes ok\nOutstanding i ie\nLevel 1\n\n© AIK +42\n@ HP +168\n[Effect ACC +3%\nGe sro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 580,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nbes ok\nOutstanding i ie\nLevel 1\n\n& Effect RES +15%\n(DEF Bonus +2%\nBe sro +3\nGy HP Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 581,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e ok\nOutstanding <i ie\nLevel 1\n\nHP Bonus +12%\n© [ffect Acc +3%\nBB CRIT Rate +2%\n@ tr +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 582,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\nbet os\nOutstanding <i ie\nLevel 1\n\n© DEF Bonus +12%\nBe Ark +17\nGe CRIT Rate +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 583,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e a\nOutstanding <i ie\nLevel 1\n\n© ATK Bonus +12%\nAk +17\nBB Effect RES +3%\n(i) DEF Bonus +2%\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 584,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e ok\nOutstanding <i ie\nLevel 1\n\n© ATK Bonus +12%\nsro +3\n(iD DEF Bonus +2%\n@ tr +168\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 585,
-        "texto_extraido": "(\\ Valiant Core: Onslaught Bo\nOnslaught ©\n\nbes ok\nOutstanding i ie\nLevel 1\n\n© AIK +42\n@ HP +168\nB® Effect ACC +3%\nGa sro +2\nNot equipped by Animuses."
-    },
-    {
-        "item_numero": 586,
-        "texto_extraido": "( Valiant Core: Onslaught Bo\nOnslaught ©\n\n&e a\nOutstanding <i ie\nLevel 1\n\n& HP +420\nGS CRIT OMG +3%\nBB CRIT Rate +2%\ni) dtr +11\nNot equipped by Animuses."
     }
 ]

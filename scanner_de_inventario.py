@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import pyscreeze
 import os
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
 REGIAO_TEXTO_DIREITA = (1352, 140, 468, 510)
 PASTA_TEMPLATES = 'scans_templates'
 NOMES_ARQUIVOS_MODELO = [
