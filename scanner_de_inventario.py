@@ -5,11 +5,12 @@ import cv2
 import numpy as np
 import json
 import math
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import pyscreeze
 import os
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
 REGIAO_TEXTO_DIREITA = (1352, 140, 468, 510)
 
 CAMINHO_DO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
@@ -25,30 +26,28 @@ IMAGENS_MODELO = [os.path.join(PASTA_TEMPLATES, nome) for nome in NOMES_ARQUIVOS
 MAPA_DE_SIMBOLOS = {
     "keeneye": "simbolo_keeneye.png",
     "swiftrush": "simbolo_swiftrush.png",
-    "battlewill": "simbolo_battlewil.png",
+    "battlewill": "simbolo_battlewill.png",
     "bloodbath" : "simbolo_bloodbath.png",
     "bramble" : "simbolo_bramble.png",
     "bulwark" : "simbolo_bulwark.png",
     "cure" : "simbolo_cure.png",
     "fury" : "simbolo_fury.png",
     "harvest" : "simbolo_harvest.png",
-    "momemtum" : "simbolo_momentum.png",
+    "momentum" : "simbolo_momentum.png",
     "onslaught" : "simbolo_onslaught.png",
     "strive" : "simbolo_strive.png",
     "timewave" : "simbolo_timewave.png",
     "unbreakable" : "simbolo_unbreakable.png",
     "wellspring" : "simbolo_wellspring.png"
-
 }
 
 REGIAO_DOS_ITENS = (169, 127, 1146, 700)
 
 pyautogui.PAUSE = 0
 NIVEL_CONFIANCA_ITEM = 0.85
-NIVEL_CONFIANCA_SIMBOLO = 0.90
-MAX_WORKERS = 8
+NIVEL_CONFIANCA_SIMBOLO = 0.85
 DISTANCIA_MINIMA_AGRUPAMENTO = 30
-PAUSA_POS_CLIQUE = 0.1
+PAUSA_POS_CLIQUE = 0.001
 SCROLL_AMOUNT = -3000
 ARQUIVO_SAIDA = 'gear.json'
 
@@ -81,21 +80,36 @@ def worker_ocr(screenshot):
     try:
         imagem_cv = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
         imagem_cinza = cv2.cvtColor(imagem_cv, cv2.COLOR_BGR2GRAY)
-        fator_resize = 2.0
-        imagem_grande = cv2.resize(imagem_cinza, None, fx=fator_resize, fy=fator_resize, interpolation=cv2.INTER_LANCZOS4)
-        kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
-        imagem_nitida = cv2.filter2D(imagem_grande, -1, kernel)
-        imagem_processada = cv2.adaptiveThreshold(
-            imagem_nitida, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
-        )
-        config_tesseract = '--psm 6 --oem 1'
+        imagem_sem_ruido = cv2.medianBlur(imagem_cinza, 3)
+        fator_resize = 2.5
+        imagem_grande = cv2.resize(imagem_sem_ruido, None, fx=fator_resize, fy=fator_resize, interpolation=cv2.INTER_CUBIC)
+        _, imagem_processada = cv2.threshold(imagem_grande, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+        config_tesseract = '--psm 3 --oem 1'
         texto_extraido = pytesseract.image_to_string(imagem_processada, lang='eng', config=config_tesseract)
-        return texto_extraido.strip()
+        linhas = [linha for linha in texto_extraido.split('\n') if linha.strip() != '']
+        return "\n".join(linhas)
     except Exception as e:
         return f"ERRO_OCR: {e}"
 
+def parsear_stats_do_texto(texto_bruto):
+    stats_conhecidos = [
+        "DEF", "CRIT Rate", "Effect RES", "ATK", "SPD", 
+        "HP", "CRIT DMG", "Effect ACC"
+    ]
+    dados_extraidos = {"stats": {}, "equipado_por": "Ninguém"}
+    for stat in stats_conhecidos:
+        padrao = re.compile(rf"{re.escape(stat)}\s*\+?(\d+)\%?")
+        match = padrao.search(texto_bruto)
+        if match:
+            dados_extraidos["stats"][stat] = int(match.group(1))
+    padrao_equipado = re.compile(r"(.+?)\s+Equipped")
+    match_equipado = padrao_equipado.search(texto_bruto)
+    if match_equipado:
+        dados_extraidos["equipado_por"] = match_equipado.group(1).strip()
+    return dados_extraidos
+
 def main():
-    print("Gear Scanner (v3: Mapeamento Dinâmico de Símbolos) iniciará em 3 segundos...")
+    print("Gear Scanner (v8: Lógica Sequencial Estável) iniciará em 3 segundos...")
     time.sleep(3)
     start_time = time.time()
 
@@ -121,30 +135,26 @@ def main():
             print("Nenhum ícone de item encontrado neste ciclo.")
             falhas_consecutivas += 1
         else:
-            print(f"Coletando {len(posicoes_para_clicar)} screenshots para OCR...")
-            screenshots_para_processar = []
+            print(f"Encontrados {len(posicoes_para_clicar)} ícones. Processando um a um...")
+            itens_realmente_novos_nesta_leva = 0
+            
             for posicao in posicoes_para_clicar:
                 pyautogui.click(pyautogui.center(posicao))
                 time.sleep(PAUSA_POS_CLIQUE)
-                screenshots_para_processar.append(pyautogui.screenshot(region=REGIAO_TEXTO_DIREITA))
-
-            print("Processando OCR em paralelo...")
-            resultados_ocr_da_tela = []
-            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-                tarefas_ocr = [executor.submit(worker_ocr, screenshot) for screenshot in screenshots_para_processar]
-                for futura_tarefa in as_completed(tarefas_ocr):
-                    resultados_ocr_da_tela.append(futura_tarefa.result())
-
-            print("Verificando resultados e contando símbolos...")
-            itens_realmente_novos_nesta_leva = 0
-            for texto_original in resultados_ocr_da_tela:
-                if not texto_original or "ERRO_OCR" in texto_original: continue
-                id_do_texto = normalizar_texto(texto_original)
                 
+                screenshot_texto = pyautogui.screenshot(region=REGIAO_TEXTO_DIREITA)
+                texto_original = worker_ocr(screenshot_texto)
+                
+                if not texto_original or "ERRO_OCR" in texto_original:
+                    continue
+                
+                id_do_texto = normalizar_texto(texto_original)
                 if id_do_texto not in identificadores_de_texto_ja_vistos:
                     itens_realmente_novos_nesta_leva += 1
                     item_contador_global += 1
                     identificadores_de_texto_ja_vistos.add(id_do_texto)
+                    
+                    dados_parseados = parsear_stats_do_texto(texto_original)
                     
                     tipo_simbolo_encontrado = "Nenhum"
                     contagem_simbolo = 0
@@ -158,9 +168,11 @@ def main():
                     
                     item_formatado = {
                         'item_numero': item_contador_global,
-                        'texto_extraido': texto_original,
-                        'tipo_simbolo': tipo_simbolo_encontrado,
-                        'contagem_simbolo': contagem_simbolo
+                        'nome_set': tipo_simbolo_encontrado,
+                        'contagem_simbolo': contagem_simbolo,
+                        'stats': dados_parseados['stats'],
+                        'equipado_por': dados_parseados['equipado_por'],
+                        'texto_bruto': texto_original
                     }
                     resultados_finais.append(item_formatado)
             
