@@ -30,16 +30,14 @@ SET_KEYWORDS = [
     "strive", "timewave", "unbreakable", "wellspring"
 ]
 
-# Sets que usarão reconhecimento de formato em vez de cor
 ACHROMATIC_SETS = ["unbreakable", "bulwark"]
 
-# Base de dados de cores para os sets coloridos
 SYMBOL_COLOR_RANGES = {
-    "fury":        [[np.array([0, 150, 150]), np.array([10, 255, 255])], [np.array([170, 150, 150]), np.array([180, 255, 255])]],
-    "momentum":    [[np.array([0, 120, 120]), np.array([10, 255, 255])], [np.array([170, 120, 120]), np.array([180, 255, 255])]],
-    "keeneye":     [[np.array([0, 120, 120]), np.array([10, 255, 255])], [np.array([170, 120, 120]), np.array([180, 255, 255])]],
-    "onslaught":   [[np.array([0, 120, 120]), np.array([10, 255, 255])], [np.array([170, 120, 120]), np.array([180, 255, 255])]],
-    "strive":      [[np.array([0, 120, 120]), np.array([10, 255, 255])], [np.array([170, 120, 120]), np.array([180, 255, 255])]],
+    "fury":        [[np.array([0, 100, 120]), np.array([10, 255, 255])], [np.array([170, 100, 120]), np.array([180, 255, 255])]],
+    "momentum":    [[np.array([0, 100, 120]), np.array([10, 255, 255])], [np.array([170, 100, 120]), np.array([180, 255, 255])]],
+    "keeneye":     [[np.array([0, 100, 120]), np.array([10, 255, 255])], [np.array([170, 100, 120]), np.array([180, 255, 255])]],
+    "onslaught":   [[np.array([0, 100, 120]), np.array([10, 255, 255])], [np.array([170, 100, 120]), np.array([180, 255, 255])]],
+    "strive":      [[np.array([0, 100, 120]), np.array([10, 255, 255])], [np.array([170, 100, 120]), np.array([180, 255, 255])]],
     "battlewill":  [[np.array([130, 80, 80]), np.array([165, 255, 255])]],
     "bloodbath":   [[np.array([20, 100, 100]), np.array([35, 255, 255])]],
     "timewave":    [[np.array([85, 80, 80]), np.array([130, 255, 255])]],
@@ -50,8 +48,7 @@ SYMBOL_COLOR_RANGES = {
     "bramble":     [[np.array([130, 80, 80]), np.array([165, 255, 255])]]
 }
 
-
-KNOWN_STATS = [ "ATK", "HP", "DEF", "SPD", "CRIT Rate", "CRIT DMG", "Effect ACC", "Effect RES", "ATK Bonus", "DEF Bonus" ]
+KNOWN_STATS = ["ATK", "HP", "DEF", "SPD", "CRIT Rate", "CRIT DMG", "Effect ACC", "Effect RES", "ATK Bonus", "DEF Bonus"]
 ITEMS_REGION = (169, 127, 1146, 700)
 pyautogui.PAUSE = 0
 ITEM_CONFIDENCE_LEVEL = 0.85
@@ -89,20 +86,14 @@ def count_symbols_by_template(region_screenshot, set_name):
         template_path = os.path.join(TEMPLATES_FOLDER, template_filename)
         template = cv2.imread(template_path, 0)
         if template is None: return 0
-
-        _, template_bin = cv2.threshold(template, 50, 255, cv2.THRESH_BINARY)
         w, h = template.shape[::-1]
-
         region_gray = cv2.cvtColor(np.array(region_screenshot), cv2.COLOR_RGB2GRAY)
         res = cv2.matchTemplate(region_gray, template, cv2.TM_CCOEFF_NORMED)
         loc = np.where(res >= 0.8)
-
-        rectangles = [ [int(pt[0]), int(pt[1]), int(w), int(h)] for pt in zip(*loc[::-1]) ]
+        rectangles = [[int(pt[0]), int(pt[1]), int(w), int(h)] for pt in zip(*loc[::-1])]
         grouped_rects, _ = cv2.groupRectangles(rectangles, 1, 0.5)
         return len(grouped_rects)
-    except Exception as e:
-        print(f"Erro na contagem por template para {set_name}: {e}")
-        return 0
+    except Exception: return 0
 
 def count_symbols_by_color(region_screenshot, set_name):
     if set_name not in SYMBOL_COLOR_RANGES: return 0
@@ -111,16 +102,13 @@ def count_symbols_by_color(region_screenshot, set_name):
         image_hsv = cv2.cvtColor(image_cv, cv2.COLOR_BGR2HSV)
         color_ranges = SYMBOL_COLOR_RANGES[set_name]
         combined_mask = cv2.inRange(image_hsv, color_ranges[0][0], color_ranges[0][1])
-
         if len(color_ranges) > 1:
             for i in range(1, len(color_ranges)):
                 mask = cv2.inRange(image_hsv, color_ranges[i][0], color_ranges[i][1])
                 combined_mask = cv2.bitwise_or(combined_mask, mask)
-        
         kernel = np.ones((3,3), np.uint8)
         closed_mask = cv2.morphologyEx(combined_mask, cv2.MORPH_CLOSE, kernel)
         contours, _ = cv2.findContours(closed_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        
         min_area, max_area = 35, 500
         valid_contours = 0
         for contour in contours:
@@ -131,52 +119,32 @@ def count_symbols_by_color(region_screenshot, set_name):
                 if 0.7 < aspect_ratio < 1.4:
                     valid_contours += 1
         return valid_contours
-    except Exception as e:
-        print(f"Erro na contagem por cor para {set_name}: {e}")
-        return 0
+    except Exception: return 0
 
 def ocr_worker(screenshot):
-    # A abordagem de múltiplos pipelines é a mais robusta.
-    cv_image = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
-    gray_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
-    
-    # Pipeline 1: Simples Ampliado
-    scale_factor = 4
-    p1_img = cv2.resize(gray_image.copy(), (gray_image.shape[1] * scale_factor, gray_image.shape[0] * scale_factor), interpolation=cv2.INTER_LANCZOS4)
-    
-    # Pipeline 2: Adaptativo
-    p2_img = cv2.adaptiveThreshold(gray_image.copy(), 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
-    p2_img = cv2.resize(p2_img, (p2_img.shape[1] * 2, p2_img.shape[0] * 2), interpolation=cv2.INTER_CUBIC)
+    try:
+        gray_image = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2GRAY)
+        scale_factor = 4
+        width = int(gray_image.shape[1] * scale_factor)
+        height = int(gray_image.shape[0] * scale_factor)
+        resized_image = cv2.resize(gray_image, (width, height), interpolation=cv2.INTER_LANCZOS4)
+        tesseract_config = '--psm 6 --oem 1'
+        extracted_text = pytesseract.image_to_string(resized_image, lang='eng', config=tesseract_config)
+        return "\n".join([line for line in extracted_text.split('\n') if line.strip() != ''])
+    except Exception as e: return f"OCR_ERROR: {e}"
 
-    pipelines = [p1_img, p2_img]
-    results = []
-    tesseract_config = '--psm 6 --oem 1'
-    
-    for p_img in pipelines:
-        try:
-            results.append(pytesseract.image_to_string(p_img, lang='eng', config=tesseract_config))
-        except Exception:
-            results.append("")
-
-    best_score, best_text = -1, ""
-    keywords = KNOWN_STATS + SET_KEYWORDS
-    for text in results:
-        score = 0
-        text_lower = text.lower()
-        for keyword in keywords:
-            if keyword.lower() in text_lower:
-                score += 5
-        score += len(re.findall(r'\d', text)) + text.count('+')
-        if score > best_score:
-            best_score, best_text = score, text
-            
-    return "\n".join([line for line in best_text.split('\n') if line.strip() != ''])
-
-def parse_stats_from_text(raw_text):
+def parse_all_from_text(raw_text):
     raw_text = raw_text.replace("+A", "+4")
-    extracted_data = {"stats": {}, "equipped_by": "Nobody"}
+    
+    extracted_data = {"stats": {}, "equipped_by": "Nobody", "set_name": "None"}
+    text_lower = raw_text.lower()
 
-    if "not equipped by" in raw_text.lower():
+    for keyword in SET_KEYWORDS:
+        if keyword in text_lower:
+            extracted_data["set_name"] = keyword
+            break
+            
+    if "not equipped by" in text_lower:
         extracted_data["equipped_by"] = "Nobody"
         raw_text = re.sub(r'.*not equipped by.*', '', raw_text, flags=re.IGNORECASE)
 
@@ -202,13 +170,13 @@ def parse_stats_from_text(raw_text):
                 char_name = char_name.replace("Current", "").strip()
             parts = char_name.split()
             extracted_data["equipped_by"] = parts[-1] if parts else "Nobody"
+            
     return extracted_data
 
 def main():
     print("Gear Scanner will start in 3 seconds...")
     time.sleep(3)
     start_time = time.time()
-
     seen_text_identifiers = set()
     final_results = []
     global_item_counter = 0
@@ -224,14 +192,12 @@ def main():
             except pyscreeze.PyScreezeException: continue
 
         positions_to_click = group_close_positions(found_positions_on_screen)
-
         if not positions_to_click:
             print("No item icons found in this cycle.")
             consecutive_failures += 1
         else:
             print(f"Found {len(positions_to_click)} unique icons. Processing...")
             truly_new_items_this_round = 0
-
             for position in positions_to_click:
                 pyautogui.click(pyautogui.center(position))
                 time.sleep(PAUSE_AFTER_CLICK)
@@ -247,21 +213,17 @@ def main():
                     seen_text_identifiers.add(text_id)
                     print(f"--> Processing item {global_item_counter}...")
 
-                    parsed_data = parse_stats_from_text(original_text)
-                    found_set_name, symbol_count = "None", 0
-                    text_lower = original_text.lower()
-
-                    for keyword in SET_KEYWORDS:
-                        if keyword in text_lower:
-                            found_set_name = keyword
-                            width, _ = text_screenshot.size
-                            symbol_search_area = text_screenshot.crop((0, 0, width, 120))
-                            
-                            if found_set_name in ACHROMATIC_SETS:
-                                symbol_count = count_symbols_by_template(symbol_search_area, found_set_name)
-                            else:
-                                symbol_count = count_symbols_by_color(symbol_search_area, found_set_name)
-                            break
+                    parsed_data = parse_all_from_text(original_text)
+                    found_set_name = parsed_data['set_name']
+                    symbol_count = 0
+                    
+                    if found_set_name != "None":
+                        width, _ = text_screenshot.size
+                        symbol_search_area = text_screenshot.crop((0, 0, width, 120))
+                        if found_set_name in ACHROMATIC_SETS:
+                            symbol_count = count_symbols_by_template(symbol_search_area, found_set_name)
+                        else:
+                            symbol_count = count_symbols_by_color(symbol_search_area, found_set_name)
 
                     final_results.append({
                         'item_number': global_item_counter,
@@ -273,11 +235,7 @@ def main():
                     })
 
             print(f"{truly_new_items_this_round} new items were processed and saved.")
-            if truly_new_items_this_round == 0:
-                consecutive_failures += 1
-            else:
-                consecutive_failures = 0
-            
+            consecutive_failures = 0 if truly_new_items_this_round > 0 else consecutive_failures + 1
             print("Scrolling down to find more items...")
             pyautogui.scroll(SCROLL_AMOUNT)
             time.sleep(0.5)
